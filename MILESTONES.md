@@ -6,7 +6,7 @@ This is the canonical progress tracker. Completion means the criteria below are 
 | --- | --- | --- | --- |
 | M0 | Definition and governance | Complete | README, AGENTS, CLAUDE, contribution rules, CC0 |
 | M1 | Data contract and build | Complete | Schema, validator, deterministic bundle, integrity tests |
-| M2 | Foundational dataset | Draft validated; review in progress | Sourced states and relationships, naming review, maintainer merge |
+| M2 | Foundational dataset | Awaiting maintainer review in PR #2 | Sourced states and relationships, naming review, maintainer merge |
 | M3 | Coverage expansion | Ongoing after foundation | Additional reviewed batches and explicit coverage gaps |
 | M4 | Search and relationship explorer | Implemented; browser checks in progress | Search, detail, map, sources, prompt, mobile and empty-state checks |
 | M5 | Public release | Pending | Green checks, Pages deployed, foundation data reviewed and merged |
@@ -28,7 +28,7 @@ This is the canonical progress tracker. Completion means the criteria below are 
 - [x] Draft foundational, difficult, mixed, and contemplative states.
 - [x] Review names and source scope; distinguish editorial synthesis.
 - [x] Validate relationships and address independent review findings.
-- [ ] Open a data PR with counts and limitations.
+- [x] Open [data PR #2](https://github.com/d4rkd0s/human-emotional-atlas/pull/2) with counts and limitations.
 - [ ] Maintainer reviews and merges the data PR.
 
 ## M3 · Expansion
@@ -46,9 +46,9 @@ No milestone asserts exhaustive coverage of every possible human state. Expansio
 - [ ] Check mobile layout, keyboard paths, empty state, and load failures.
 
 ## M5 · Release
-- [ ] Infrastructure committed to main and CI verified.
+- [x] Infrastructure committed to main; GitHub Validate atlas workflow passed.
 - [ ] Enable GitHub Pages and verify successful publication.
-- [ ] Keep unmerged data out of the published explorer.
+- [x] Keep unmerged data out of main and its deployment build.
 - [ ] Merge foundation only after maintainer review; verify populated release.
 
 ## Coverage backlog
@@ -62,3 +62,11 @@ Tracking issue: [#1](https://github.com/d4rkd0s/human-emotional-atlas/issues/1).
 Pages deployment needs the repository owner to select GitHub Actions in Settings → Pages. The connected tooling cannot change that setting, and the browser is not signed in.
 
 Initial data limitation: intensity and time-course fields currently state general variability rather than entry-specific evidence. Enrich these fields in future reviewed batches. Loneliness, relief, and hatred identify source-fit limits explicitly. The anxiety/fear empirical edge describes semantic proximity, not temporal causation.
+
+## Release checkpoint · 2026-11-06
+
+- Infrastructure commit: `b0ce60e0e47b939557232fcc9383c843a395080d`.
+- GitHub validation passed: https://github.com/d4rkd0s/human-emotional-atlas/actions/runs/42334257301
+- Proposed data: [d4rkd0s/human-emotional-atlas #2 — Review foundational atlas](https://github.com/d4rkd0s/human-emotional-atlas/pull/2), intentionally unmerged.
+- Pages build and tests passed; deployment stopped at configure-pages because Pages is not enabled. Select Settings → Pages → GitHub Actions, then rerun Publish atlas explorer. No administrative credentials are committed.
+- Browser checks completed: desktop/narrow-frame render, populated and empty states, search, prompt copy. Full keyboard navigation and simulated network-failure checks remain pending.

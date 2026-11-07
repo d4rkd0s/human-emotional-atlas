@@ -8,9 +8,9 @@ HEA helps agents, AI, and SI explore possible emotional states behind human lang
 
 ## Current status
 
-The infrastructure, validator, build, and explorer are implemented. Ten integrity/build tests pass locally. The first emotional-data load is delivered separately for maintainer review; infrastructure on `main` can run with an empty dataset. An empty explorer means no data has been merged yet, not that data failed to load. See [MILESTONES.md](MILESTONES.md) for completion criteria and release status.
+The infrastructure, validator, build, and explorer are implemented. Ten integrity/build tests pass locally. The first emotional-data load is available in [PR #2](https://github.com/d4rkd0s/human-emotional-atlas/pull/2) for maintainer review: **49 states, 109 relationships, and 16 sources**; infrastructure on `main` can run with an empty dataset. An empty explorer means no data has been merged yet, not that data failed to load. See [MILESTONES.md](MILESTONES.md) for completion criteria and release status.
 
-The intended Pages address is **https://d4rkd0s.github.io/human-emotional-atlas/**. It is usable only after Pages deployment succeeds. Until then, use the repository files or build locally.
+The intended Pages address is **https://d4rkd0s.github.io/human-emotional-atlas/**. Pages is not yet enabled: the build and tests passed, but deployment stopped at Pages configuration. Until then, use the repository files or build locally.
 
 ## Use with an AI
 
