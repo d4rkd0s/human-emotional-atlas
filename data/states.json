@@ -1,1 +1,2250 @@
-[]
+[
+  {
+    "id": "joy",
+    "name": "Joy",
+    "kind": "emotion",
+    "definition": "Pleasure and gladness in something experienced as welcome.",
+    "aliases": [
+      "gladness"
+    ],
+    "components": [],
+    "qualities": {
+      "valence": "pleasant",
+      "arousal": "variable",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "A light or energized feeling"
+    ],
+    "thoughts": [
+      "This is wonderful."
+    ],
+    "action_tendencies": [
+      "Share or savor the experience"
+    ],
+    "needs": [
+      "Enjoyment and connection"
+    ],
+    "contexts": [
+      "A welcome encounter or successful outcome"
+    ],
+    "examples": [
+      {
+        "text": "I wish this moment could last.",
+        "possible_states": [
+          "joy",
+          "gratitude",
+          "excitement"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies."
+  },
+  {
+    "id": "amusement",
+    "name": "Amusement",
+    "kind": "emotion",
+    "definition": "Enjoyment of something perceived as funny or playfully incongruous.",
+    "aliases": [],
+    "components": [],
+    "qualities": {
+      "valence": "pleasant",
+      "arousal": "moderate",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "Smiling or laughter may occur"
+    ],
+    "thoughts": [
+      "That was unexpectedly funny."
+    ],
+    "action_tendencies": [
+      "Laugh or invite shared play"
+    ],
+    "needs": [
+      "Play and ease"
+    ],
+    "contexts": [
+      "Humor, absurdity, or friendly teasing"
+    ],
+    "examples": [
+      {
+        "text": "I cannot stop laughing at that.",
+        "possible_states": [
+          "amusement",
+          "joy",
+          "embarrassment"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies."
+  },
+  {
+    "id": "excitement",
+    "name": "Excitement",
+    "kind": "emotion",
+    "definition": "Energized anticipation or enjoyment of something personally engaging.",
+    "aliases": [],
+    "components": [],
+    "qualities": {
+      "valence": "pleasant",
+      "arousal": "high",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "Restlessness or quickened movement"
+    ],
+    "thoughts": [
+      "I cannot wait to begin."
+    ],
+    "action_tendencies": [
+      "Approach and participate"
+    ],
+    "needs": [
+      "Exploration and participation"
+    ],
+    "contexts": [
+      "An upcoming opportunity or rewarding discovery"
+    ],
+    "examples": [
+      {
+        "text": "My heart is racing before tomorrow.",
+        "possible_states": [
+          "excitement",
+          "anxiety",
+          "hope"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies."
+  },
+  {
+    "id": "contentment",
+    "name": "Contentment",
+    "kind": "emotion",
+    "definition": "A sense that the present situation is sufficiently satisfying.",
+    "aliases": [],
+    "components": [],
+    "qualities": {
+      "valence": "pleasant",
+      "arousal": "low",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "Settled posture or easy breathing"
+    ],
+    "thoughts": [
+      "For now, this is enough."
+    ],
+    "action_tendencies": [
+      "Remain and appreciate"
+    ],
+    "needs": [
+      "Sufficiency and rest"
+    ],
+    "contexts": [
+      "A comfortable pause without pressing demands"
+    ],
+    "examples": [
+      {
+        "text": "I am happy just being here.",
+        "possible_states": [
+          "contentment",
+          "calm",
+          "joy"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies."
+  },
+  {
+    "id": "calm",
+    "name": "Calm",
+    "kind": "mental_state",
+    "definition": "A relatively settled state with little felt agitation.",
+    "aliases": [],
+    "components": [],
+    "qualities": {
+      "valence": "neutral_to_pleasant",
+      "arousal": "low",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "Reduced felt tension"
+    ],
+    "thoughts": [
+      "There is room to think."
+    ],
+    "action_tendencies": [
+      "Pause or attend steadily"
+    ],
+    "needs": [
+      "Stability and space"
+    ],
+    "contexts": [
+      "Rest, familiarity, or manageable demands"
+    ],
+    "examples": [
+      {
+        "text": "I can take this one thing at a time.",
+        "possible_states": [
+          "calm",
+          "contentment",
+          "equanimity"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies."
+  },
+  {
+    "id": "sadness",
+    "name": "Sadness",
+    "kind": "emotion",
+    "definition": "Unpleasant feeling around loss, disappointment, or something valued being absent.",
+    "aliases": [
+      "sorrow"
+    ],
+    "components": [],
+    "qualities": {
+      "valence": "unpleasant",
+      "arousal": "low_to_moderate",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "Heaviness or tears may occur"
+    ],
+    "thoughts": [
+      "Something important is missing."
+    ],
+    "action_tendencies": [
+      "Withdraw, reflect, or seek comfort"
+    ],
+    "needs": [
+      "Connection and acknowledgment"
+    ],
+    "contexts": [
+      "Loss, separation, or an unmet wish"
+    ],
+    "examples": [
+      {
+        "text": "It feels empty without them.",
+        "possible_states": [
+          "sadness",
+          "grief",
+          "loneliness"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies."
+  },
+  {
+    "id": "grief",
+    "name": "Grief",
+    "kind": "mixed_state",
+    "definition": "A changing response to significant loss that can include yearning, sadness, anger, relief, and loving remembrance.",
+    "aliases": [],
+    "components": [
+      "sadness",
+      "love"
+    ],
+    "qualities": {
+      "valence": "mixed",
+      "arousal": "variable",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "Waves of heaviness or agitation"
+    ],
+    "thoughts": [
+      "I keep reaching for what is gone."
+    ],
+    "action_tendencies": [
+      "Remember, seek company, or retreat"
+    ],
+    "needs": [
+      "Continuity and space for loss"
+    ],
+    "contexts": [
+      "Bereavement or another personally significant loss"
+    ],
+    "examples": [
+      {
+        "text": "I miss them, and sometimes I laugh at our memories.",
+        "possible_states": [
+          "grief",
+          "sadness",
+          "nostalgia"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "bereavement"
+    ],
+    "basis": "editorial_synthesis",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies. Components are possible constituent experiences, not necessary ingredients or a universal equation. Grief has no required sequence of stages or required endpoint."
+  },
+  {
+    "id": "fear",
+    "name": "Fear",
+    "kind": "emotion",
+    "definition": "An aversive response to perceived threat or danger.",
+    "aliases": [
+      "fright"
+    ],
+    "components": [],
+    "qualities": {
+      "valence": "unpleasant",
+      "arousal": "high",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "Tension or rapid heartbeat may occur"
+    ],
+    "thoughts": [
+      "Something could hurt me."
+    ],
+    "action_tendencies": [
+      "Escape, freeze, protect, or seek safety"
+    ],
+    "needs": [
+      "Safety and orientation"
+    ],
+    "contexts": [
+      "An immediate or vividly imagined threat"
+    ],
+    "examples": [
+      {
+        "text": "Please do not come any closer.",
+        "possible_states": [
+          "fear",
+          "anger",
+          "anxiety"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies."
+  },
+  {
+    "id": "anxiety",
+    "name": "Anxiety",
+    "kind": "emotion",
+    "definition": "Apprehension about uncertain or anticipated threat.",
+    "aliases": [],
+    "components": [],
+    "qualities": {
+      "valence": "unpleasant",
+      "arousal": "moderate_to_high",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "Restlessness or stomach discomfort"
+    ],
+    "thoughts": [
+      "What if it goes wrong?"
+    ],
+    "action_tendencies": [
+      "Monitor, prepare, avoid, or seek information"
+    ],
+    "needs": [
+      "Predictability and safety"
+    ],
+    "contexts": [
+      "Uncertain outcomes, overload, or sleep loss"
+    ],
+    "examples": [
+      {
+        "text": "I keep thinking about everything that might happen.",
+        "possible_states": [
+          "anxiety",
+          "fear",
+          "excitement"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "cowen2017",
+      "sleep2024"
+    ],
+    "basis": "editorial_synthesis",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies."
+  },
+  {
+    "id": "anger",
+    "name": "Anger",
+    "kind": "emotion",
+    "definition": "An activated response to perceived obstruction, offense, or unfairness.",
+    "aliases": [],
+    "components": [],
+    "qualities": {
+      "valence": "unpleasant_or_mixed",
+      "arousal": "moderate_to_high",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "Heat or muscular tension"
+    ],
+    "thoughts": [
+      "This should not be happening."
+    ],
+    "action_tendencies": [
+      "Confront, protest, protect, or withdraw"
+    ],
+    "needs": [
+      "Boundaries and fair treatment"
+    ],
+    "contexts": [
+      "An obstacle, insult, or perceived injustice"
+    ],
+    "examples": [
+      {
+        "text": "That crossed a line.",
+        "possible_states": [
+          "anger",
+          "fear",
+          "frustration"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "bodily2014"
+    ],
+    "basis": "editorial_synthesis",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies."
+  },
+  {
+    "id": "frustration",
+    "name": "Frustration",
+    "kind": "emotion",
+    "definition": "Distress when progress toward a goal is blocked.",
+    "aliases": [],
+    "components": [],
+    "qualities": {
+      "valence": "unpleasant",
+      "arousal": "moderate_to_high",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "Tense movement or sighing"
+    ],
+    "thoughts": [
+      "I am trying and getting nowhere."
+    ],
+    "action_tendencies": [
+      "Persist, change approach, or stop"
+    ],
+    "needs": [
+      "Agency and workable options"
+    ],
+    "contexts": [
+      "Repeated errors or inaccessible tasks"
+    ],
+    "examples": [
+      {
+        "text": "Why will this still not work?",
+        "possible_states": [
+          "frustration",
+          "anger",
+          "overwhelm"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies."
+  },
+  {
+    "id": "resentment",
+    "name": "Resentment",
+    "kind": "emotion",
+    "definition": "Lingering grievance about a perceived wrong or unfair burden.",
+    "aliases": [],
+    "components": [],
+    "qualities": {
+      "valence": "unpleasant",
+      "arousal": "variable",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "Tension when recalling the grievance"
+    ],
+    "thoughts": [
+      "They never acknowledged what happened."
+    ],
+    "action_tendencies": [
+      "Rehearse the grievance or distance oneself"
+    ],
+    "needs": [
+      "Recognition and fairness"
+    ],
+    "contexts": [
+      "Repeated imbalance or an unresolved injury"
+    ],
+    "examples": [
+      {
+        "text": "I am still upset that I had to carry all of it.",
+        "possible_states": [
+          "resentment",
+          "anger",
+          "sadness"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "an5161"
+    ],
+    "basis": "editorial_synthesis",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies."
+  },
+  {
+    "id": "hatred",
+    "name": "Hatred",
+    "kind": "emotion",
+    "definition": "Intense aversion toward a person, group, or object experienced as deeply objectionable.",
+    "aliases": [],
+    "components": [],
+    "qualities": {
+      "valence": "unpleasant_or_mixed",
+      "arousal": "variable",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "Tension or a cold sense of resolve"
+    ],
+    "thoughts": [
+      "I want nothing to do with them."
+    ],
+    "action_tendencies": [
+      "Reject, distance, or oppose"
+    ],
+    "needs": [
+      "Safety or protection of values may be perceived needs"
+    ],
+    "contexts": [
+      "Entrenched conflict or repeated perceived harm"
+    ],
+    "examples": [
+      {
+        "text": "I cannot stand anything about them.",
+        "possible_states": [
+          "hatred",
+          "anger",
+          "disgust"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "an5161"
+    ],
+    "basis": "editorial_synthesis",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies. AN 5.161 addresses annoyance and traditional cultivation practices, not a modern operational definition of hatred. This broader working definition is editorial."
+  },
+  {
+    "id": "irritability",
+    "name": "Irritability",
+    "kind": "mood",
+    "definition": "A lowered threshold for annoyance across situations.",
+    "aliases": [],
+    "components": [],
+    "qualities": {
+      "valence": "unpleasant",
+      "arousal": "moderate",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "Sensory discomfort or tension"
+    ],
+    "thoughts": [
+      "Everything is getting on my nerves."
+    ],
+    "action_tendencies": [
+      "Snap, withdraw, or reduce stimulation"
+    ],
+    "needs": [
+      "Rest and manageable stimulation"
+    ],
+    "contexts": [
+      "Sleep loss, discomfort, or accumulated demands"
+    ],
+    "examples": [
+      {
+        "text": "Even small noises are bothering me today.",
+        "possible_states": [
+          "irritability",
+          "anger",
+          "overwhelm"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "sleep2024"
+    ],
+    "basis": "editorial_synthesis",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies."
+  },
+  {
+    "id": "horror",
+    "name": "Horror",
+    "kind": "emotion",
+    "definition": "A strongly aversive response to something perceived as terrifying or profoundly disturbing.",
+    "aliases": [],
+    "components": [],
+    "qualities": {
+      "valence": "unpleasant",
+      "arousal": "high",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "Recoiling or feeling immobilized"
+    ],
+    "thoughts": [
+      "I cannot bear what I am seeing."
+    ],
+    "action_tendencies": [
+      "Look away, escape, or seek protection"
+    ],
+    "needs": [
+      "Safety and orientation"
+    ],
+    "contexts": [
+      "Witnessing or imagining severe harm"
+    ],
+    "examples": [
+      {
+        "text": "I cannot believe that happened.",
+        "possible_states": [
+          "horror",
+          "fear",
+          "disgust"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies."
+  },
+  {
+    "id": "disgust",
+    "name": "Disgust",
+    "kind": "emotion",
+    "definition": "Revulsion toward something experienced as contaminating, repellent, or offensive.",
+    "aliases": [],
+    "components": [],
+    "qualities": {
+      "valence": "unpleasant",
+      "arousal": "moderate_to_high",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "Nausea or recoiling may occur"
+    ],
+    "thoughts": [
+      "Keep that away from me."
+    ],
+    "action_tendencies": [
+      "Reject or create distance"
+    ],
+    "needs": [
+      "Protection and separation"
+    ],
+    "contexts": [
+      "Sensory contamination or a moral judgment"
+    ],
+    "examples": [
+      {
+        "text": "That turns my stomach.",
+        "possible_states": [
+          "disgust",
+          "horror",
+          "contempt"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies."
+  },
+  {
+    "id": "contempt",
+    "name": "Contempt",
+    "kind": "emotion",
+    "definition": "Disdain toward someone or something judged beneath respect.",
+    "aliases": [],
+    "components": [],
+    "qualities": {
+      "valence": "unpleasant_or_mixed",
+      "arousal": "variable",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "A dismissive posture may occur"
+    ],
+    "thoughts": [
+      "They are not worth engaging with."
+    ],
+    "action_tendencies": [
+      "Dismiss or exclude"
+    ],
+    "needs": [
+      "Status or protection of standards may be perceived needs"
+    ],
+    "contexts": [
+      "A judgment of character or repeated violation"
+    ],
+    "examples": [
+      {
+        "text": "They are not worth my time.",
+        "possible_states": [
+          "contempt",
+          "anger",
+          "disgust"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "contempt2017"
+    ],
+    "basis": "editorial_synthesis",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies."
+  },
+  {
+    "id": "shame",
+    "name": "Shame",
+    "kind": "emotion",
+    "definition": "Painful negative evaluation of oneself, often with a sense of exposure or inadequacy.",
+    "aliases": [],
+    "components": [],
+    "qualities": {
+      "valence": "unpleasant",
+      "arousal": "variable",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "A wish to shrink or hide"
+    ],
+    "thoughts": [
+      "There is something wrong with me."
+    ],
+    "action_tendencies": [
+      "Conceal, retreat, or defend oneself"
+    ],
+    "needs": [
+      "Dignity and belonging"
+    ],
+    "contexts": [
+      "Actual or imagined judgment"
+    ],
+    "examples": [
+      {
+        "text": "I wish nobody could see me right now.",
+        "possible_states": [
+          "shame",
+          "embarrassment",
+          "guilt"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "moral2007"
+    ],
+    "basis": "editorial_synthesis",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies."
+  },
+  {
+    "id": "guilt",
+    "name": "Guilt",
+    "kind": "emotion",
+    "definition": "Distress about an action or omission judged wrong or harmful.",
+    "aliases": [],
+    "components": [],
+    "qualities": {
+      "valence": "unpleasant",
+      "arousal": "moderate",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "Tension or heaviness"
+    ],
+    "thoughts": [
+      "I did something I should repair."
+    ],
+    "action_tendencies": [
+      "Apologize, repair, or reconsider"
+    ],
+    "needs": [
+      "Responsibility and repair"
+    ],
+    "contexts": [
+      "A perceived violation of one's standards"
+    ],
+    "examples": [
+      {
+        "text": "I should not have said that.",
+        "possible_states": [
+          "guilt",
+          "shame",
+          "regret"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "moral2007"
+    ],
+    "basis": "editorial_synthesis",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies."
+  },
+  {
+    "id": "embarrassment",
+    "name": "Embarrassment",
+    "kind": "emotion",
+    "definition": "Discomfort about unwanted attention or a perceived social misstep.",
+    "aliases": [],
+    "components": [],
+    "qualities": {
+      "valence": "unpleasant_or_mixed",
+      "arousal": "moderate",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "Blushing or nervous laughter may occur"
+    ],
+    "thoughts": [
+      "Everyone noticed."
+    ],
+    "action_tendencies": [
+      "Explain, laugh, or recover social footing"
+    ],
+    "needs": [
+      "Social ease and acceptance"
+    ],
+    "contexts": [
+      "A public mistake or unexpected attention"
+    ],
+    "examples": [
+      {
+        "text": "Can we please forget I said that?",
+        "possible_states": [
+          "embarrassment",
+          "shame",
+          "amusement"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "moral2007"
+    ],
+    "basis": "editorial_synthesis",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies."
+  },
+  {
+    "id": "regret",
+    "name": "Regret",
+    "kind": "emotion",
+    "definition": "Distress when imagining a preferable alternative to a past choice.",
+    "aliases": [],
+    "components": [],
+    "qualities": {
+      "valence": "unpleasant",
+      "arousal": "variable",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "Sighing or heaviness"
+    ],
+    "thoughts": [
+      "I wish I had chosen differently."
+    ],
+    "action_tendencies": [
+      "Review a decision or change future behavior"
+    ],
+    "needs": [
+      "Learning and repair"
+    ],
+    "contexts": [
+      "A disappointing consequence attributed to a choice"
+    ],
+    "examples": [
+      {
+        "text": "If only I had waited.",
+        "possible_states": [
+          "regret",
+          "guilt",
+          "disappointment"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "moral2007"
+    ],
+    "basis": "editorial_synthesis",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies."
+  },
+  {
+    "id": "disappointment",
+    "name": "Disappointment",
+    "kind": "emotion",
+    "definition": "Sadness or dissatisfaction when an outcome falls short of a hope or expectation.",
+    "aliases": [],
+    "components": [],
+    "qualities": {
+      "valence": "unpleasant",
+      "arousal": "low_to_moderate",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "A sinking feeling"
+    ],
+    "thoughts": [
+      "I hoped it would be different."
+    ],
+    "action_tendencies": [
+      "Reassess or disengage"
+    ],
+    "needs": [
+      "Acknowledgment and revised expectations"
+    ],
+    "contexts": [
+      "An unmet expectation"
+    ],
+    "examples": [
+      {
+        "text": "I really thought this would work out.",
+        "possible_states": [
+          "disappointment",
+          "sadness",
+          "frustration"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies."
+  },
+  {
+    "id": "hope",
+    "name": "Hope",
+    "kind": "emotion",
+    "definition": "Orientation toward a desired possibility whose realization remains uncertain.",
+    "aliases": [],
+    "components": [],
+    "qualities": {
+      "valence": "pleasant_or_mixed",
+      "arousal": "variable",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "A sense of renewed energy"
+    ],
+    "thoughts": [
+      "There may still be a way."
+    ],
+    "action_tendencies": [
+      "Imagine, plan, or persist"
+    ],
+    "needs": [
+      "Possibility and agency"
+    ],
+    "contexts": [
+      "A difficult situation with a valued possible outcome"
+    ],
+    "examples": [
+      {
+        "text": "Maybe there is still a chance.",
+        "possible_states": [
+          "hope",
+          "anxiety",
+          "excitement"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies."
+  },
+  {
+    "id": "despair",
+    "name": "Despair",
+    "kind": "emotion",
+    "definition": "A felt absence of viable possibility concerning something deeply important.",
+    "aliases": [],
+    "components": [],
+    "qualities": {
+      "valence": "unpleasant",
+      "arousal": "variable",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "Heaviness or agitation"
+    ],
+    "thoughts": [
+      "I cannot see a way forward."
+    ],
+    "action_tendencies": [
+      "Withdraw or seek urgent support"
+    ],
+    "needs": [
+      "Support and workable possibilities"
+    ],
+    "contexts": [
+      "Repeated setbacks or overwhelming loss"
+    ],
+    "examples": [
+      {
+        "text": "Nothing I try seems to make a difference.",
+        "possible_states": [
+          "despair",
+          "sadness",
+          "overwhelm"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies."
+  },
+  {
+    "id": "relief",
+    "name": "Relief",
+    "kind": "emotion",
+    "definition": "Easing when an anticipated or ongoing burden seems reduced or ended.",
+    "aliases": [],
+    "components": [],
+    "qualities": {
+      "valence": "pleasant_or_mixed",
+      "arousal": "falling",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "Exhaling or releasing tension"
+    ],
+    "thoughts": [
+      "I do not have to carry that right now."
+    ],
+    "action_tendencies": [
+      "Rest or resume interrupted activity"
+    ],
+    "needs": [
+      "Recovery and safety"
+    ],
+    "contexts": [
+      "An uncertainty resolved or demand removed"
+    ],
+    "examples": [
+      {
+        "text": "I can finally breathe again.",
+        "possible_states": [
+          "relief",
+          "calm",
+          "joy"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "mixed2001"
+    ],
+    "basis": "editorial_synthesis",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies. The mixed-emotions source supports coexistence in general, not this relief definition. Entry-specific source enrichment is pending."
+  },
+  {
+    "id": "loneliness",
+    "name": "Loneliness",
+    "kind": "emotion",
+    "definition": "Distress about a gap between desired and experienced connection.",
+    "aliases": [],
+    "components": [],
+    "qualities": {
+      "valence": "unpleasant",
+      "arousal": "variable",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "An aching or empty feeling"
+    ],
+    "thoughts": [
+      "I do not feel connected."
+    ],
+    "action_tendencies": [
+      "Seek contact or withdraw protectively"
+    ],
+    "needs": [
+      "Belonging and meaningful contact"
+    ],
+    "contexts": [
+      "Isolation or feeling unseen among others"
+    ],
+    "examples": [
+      {
+        "text": "There are people here, but I still feel alone.",
+        "possible_states": [
+          "loneliness",
+          "sadness",
+          "shame"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "bodily2014"
+    ],
+    "basis": "editorial_synthesis",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies. The bodily-maps source provides general bodily-experience context, not direct support for this loneliness definition. Entry-specific source enrichment is pending."
+  },
+  {
+    "id": "love",
+    "name": "Love",
+    "kind": "emotion",
+    "definition": "Affectionate attachment or caring directed toward someone or something valued.",
+    "aliases": [],
+    "components": [],
+    "qualities": {
+      "valence": "pleasant_or_mixed",
+      "arousal": "variable",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "Warmth or a wish for closeness"
+    ],
+    "thoughts": [
+      "Your existence matters to me."
+    ],
+    "action_tendencies": [
+      "Approach, care, or protect"
+    ],
+    "needs": [
+      "Connection and care"
+    ],
+    "contexts": [
+      "Close relationships, devotion, or attachment"
+    ],
+    "examples": [
+      {
+        "text": "I want you to be well.",
+        "possible_states": [
+          "love",
+          "compassion",
+          "loving-kindness"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "bodily2014"
+    ],
+    "basis": "editorial_synthesis",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies."
+  },
+  {
+    "id": "compassion",
+    "name": "Compassion",
+    "kind": "quality",
+    "definition": "Concern for suffering accompanied by a wish that it be eased.",
+    "aliases": [
+      "karuna"
+    ],
+    "components": [],
+    "qualities": {
+      "valence": "mixed",
+      "arousal": "variable",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "Tenderness or a felt ache"
+    ],
+    "thoughts": [
+      "This suffering matters."
+    ],
+    "action_tendencies": [
+      "Attend or offer help"
+    ],
+    "needs": [
+      "Care and understanding"
+    ],
+    "contexts": [
+      "Encountering another's or one's own suffering"
+    ],
+    "examples": [
+      {
+        "text": "I wish this were easier for you.",
+        "possible_states": [
+          "compassion",
+          "love",
+          "sadness"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "four-immeasurables"
+    ],
+    "basis": "editorial_synthesis",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies."
+  },
+  {
+    "id": "loving-kindness",
+    "name": "Loving-kindness",
+    "kind": "quality",
+    "definition": "An orientation of goodwill wishing well-being without requiring personal benefit.",
+    "aliases": [
+      "goodwill",
+      "metta",
+      "maitri"
+    ],
+    "components": [],
+    "qualities": {
+      "valence": "pleasant_or_neutral",
+      "arousal": "variable",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "Warmth may occur; no special sensation is required"
+    ],
+    "thoughts": [
+      "May you be well."
+    ],
+    "action_tendencies": [
+      "Express goodwill or refrain from hostility"
+    ],
+    "needs": [
+      "Benevolence and connection"
+    ],
+    "contexts": [
+      "Buddhist cultivation or ordinary friendly concern"
+    ],
+    "examples": [
+      {
+        "text": "I hope good things come your way.",
+        "possible_states": [
+          "loving-kindness",
+          "love",
+          "compassion"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "four-immeasurables"
+    ],
+    "basis": "tradition_specific",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies. Buddhist terms have technical meanings that vary by text and tradition; aliases are retrieval aids, not exact translations."
+  },
+  {
+    "id": "sympathetic-joy",
+    "name": "Sympathetic joy",
+    "kind": "quality",
+    "definition": "Gladness in another person's good fortune or flourishing.",
+    "aliases": [
+      "appreciative joy",
+      "mudita"
+    ],
+    "components": [],
+    "qualities": {
+      "valence": "pleasant",
+      "arousal": "variable",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "Smiling or warmth may occur"
+    ],
+    "thoughts": [
+      "I am glad things are going well for you."
+    ],
+    "action_tendencies": [
+      "Celebrate or encourage"
+    ],
+    "needs": [
+      "Shared flourishing"
+    ],
+    "contexts": [
+      "Another's success or happiness"
+    ],
+    "examples": [
+      {
+        "text": "You earned this, and I am happy for you.",
+        "possible_states": [
+          "sympathetic-joy",
+          "joy",
+          "gratitude"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "four-immeasurables"
+    ],
+    "basis": "tradition_specific",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies. Buddhist terms have technical meanings that vary by text and tradition; aliases are retrieval aids, not exact translations."
+  },
+  {
+    "id": "equanimity",
+    "name": "Equanimity",
+    "kind": "quality",
+    "definition": "Evenness of attention and care amid changing pleasant and unpleasant experience.",
+    "aliases": [
+      "upekkha",
+      "upeksha"
+    ],
+    "components": [],
+    "qualities": {
+      "valence": "neutral_or_mixed",
+      "arousal": "variable",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "Steadiness may coexist with bodily activation"
+    ],
+    "thoughts": [
+      "I can remain present without being swept away."
+    ],
+    "action_tendencies": [
+      "Attend without immediate reactive preference"
+    ],
+    "needs": [
+      "Balance and perspective"
+    ],
+    "contexts": [
+      "Contemplative practice or meeting uncertainty"
+    ],
+    "examples": [
+      {
+        "text": "This matters, and I can meet it steadily.",
+        "possible_states": [
+          "equanimity",
+          "calm",
+          "acceptance"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "four-immeasurables"
+    ],
+    "basis": "tradition_specific",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies. Buddhist terms have technical meanings that vary by text and tradition; aliases are retrieval aids, not exact translations. Equanimity is not indifference, suppression, or a requirement to remain in harmful circumstances."
+  },
+  {
+    "id": "patience",
+    "name": "Patience",
+    "kind": "quality",
+    "definition": "Capacity to remain engaged without impulsive retaliation or abandonment during difficulty or delay.",
+    "aliases": [],
+    "components": [],
+    "qualities": {
+      "valence": "neutral_or_mixed",
+      "arousal": "variable",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "An urge to act may remain"
+    ],
+    "thoughts": [
+      "I can allow time for this."
+    ],
+    "action_tendencies": [
+      "Wait, persist, or respond deliberately"
+    ],
+    "needs": [
+      "Time and workable pacing"
+    ],
+    "contexts": [
+      "Delay, frustration, or conflict"
+    ],
+    "examples": [
+      {
+        "text": "We can take the time this needs.",
+        "possible_states": [
+          "patience",
+          "equanimity",
+          "acceptance"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "patience"
+    ],
+    "basis": "editorial_synthesis",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies. Patience does not require acquiescing to mistreatment."
+  },
+  {
+    "id": "acceptance",
+    "name": "Acceptance",
+    "kind": "quality",
+    "definition": "Acknowledgment of present reality without requiring approval of it.",
+    "aliases": [],
+    "components": [],
+    "qualities": {
+      "valence": "neutral_or_mixed",
+      "arousal": "variable",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "Tension may ease or remain"
+    ],
+    "thoughts": [
+      "This is what is happening now."
+    ],
+    "action_tendencies": [
+      "Orient to what is workable"
+    ],
+    "needs": [
+      "Clarity and agency"
+    ],
+    "contexts": [
+      "An unwanted fact or a difficult feeling"
+    ],
+    "examples": [
+      {
+        "text": "I do not like it, but I can acknowledge it.",
+        "possible_states": [
+          "acceptance",
+          "equanimity",
+          "sadness"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "arrow"
+    ],
+    "basis": "editorial_synthesis",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies. Acceptance does not imply consent, approval, or resignation."
+  },
+  {
+    "id": "pride",
+    "name": "Pride",
+    "kind": "emotion",
+    "definition": "Satisfaction in an achievement, identity, or valued affiliation.",
+    "aliases": [],
+    "components": [],
+    "qualities": {
+      "valence": "pleasant_or_mixed",
+      "arousal": "moderate",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "A sense of expansion"
+    ],
+    "thoughts": [
+      "This reflects something I value."
+    ],
+    "action_tendencies": [
+      "Share achievement or sustain effort"
+    ],
+    "needs": [
+      "Competence and recognition"
+    ],
+    "contexts": [
+      "An accomplishment or meaningful belonging"
+    ],
+    "examples": [
+      {
+        "text": "I worked hard, and I am proud of it.",
+        "possible_states": [
+          "pride",
+          "joy",
+          "gratitude"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "moral2007"
+    ],
+    "basis": "editorial_synthesis",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies."
+  },
+  {
+    "id": "gratitude",
+    "name": "Gratitude",
+    "kind": "emotion",
+    "definition": "Appreciation of a benefit or goodness received or recognized.",
+    "aliases": [],
+    "components": [],
+    "qualities": {
+      "valence": "pleasant_or_mixed",
+      "arousal": "variable",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "Warmth or tears may occur"
+    ],
+    "thoughts": [
+      "This has helped me."
+    ],
+    "action_tendencies": [
+      "Thank, acknowledge, or reciprocate"
+    ],
+    "needs": [
+      "Recognition and connection"
+    ],
+    "contexts": [
+      "Support, generosity, or noticing valued conditions"
+    ],
+    "examples": [
+      {
+        "text": "That meant more to me than you know.",
+        "possible_states": [
+          "gratitude",
+          "love",
+          "relief"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "gratitude2003"
+    ],
+    "basis": "editorial_synthesis",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies."
+  },
+  {
+    "id": "envy",
+    "name": "Envy",
+    "kind": "emotion",
+    "definition": "Painful comparison with another's valued advantage.",
+    "aliases": [],
+    "components": [],
+    "qualities": {
+      "valence": "unpleasant",
+      "arousal": "variable",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "Tension or sinking feeling"
+    ],
+    "thoughts": [
+      "I wish I had what they have."
+    ],
+    "action_tendencies": [
+      "Improve one's position or diminish the comparison"
+    ],
+    "needs": [
+      "Competence or fair opportunity may be perceived needs"
+    ],
+    "contexts": [
+      "Upward comparison"
+    ],
+    "examples": [
+      {
+        "text": "I wish that opportunity had been mine.",
+        "possible_states": [
+          "envy",
+          "jealousy",
+          "sadness"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "envy1993"
+    ],
+    "basis": "editorial_synthesis",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies."
+  },
+  {
+    "id": "jealousy",
+    "name": "Jealousy",
+    "kind": "mixed_state",
+    "definition": "Distress about a valued relationship or position being threatened by a rival.",
+    "aliases": [],
+    "components": [
+      "fear",
+      "anger"
+    ],
+    "qualities": {
+      "valence": "unpleasant",
+      "arousal": "variable",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "Agitation or tightness"
+    ],
+    "thoughts": [
+      "I might lose my place with you."
+    ],
+    "action_tendencies": [
+      "Seek reassurance, monitor, or protest"
+    ],
+    "needs": [
+      "Security and belonging"
+    ],
+    "contexts": [
+      "Perceived rivalry"
+    ],
+    "examples": [
+      {
+        "text": "Are you replacing me?",
+        "possible_states": [
+          "jealousy",
+          "fear",
+          "anger"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "envy1993"
+    ],
+    "basis": "editorial_synthesis",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies. Components are possible constituent experiences, not necessary ingredients or a universal equation. A perceived threat does not establish an actual betrayal."
+  },
+  {
+    "id": "schadenfreude",
+    "name": "Schadenfreude",
+    "kind": "emotion",
+    "definition": "Pleasure at another's misfortune.",
+    "aliases": [
+      "pleasure at another’s misfortune"
+    ],
+    "components": [],
+    "qualities": {
+      "valence": "pleasant_or_mixed",
+      "arousal": "variable",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "Smiling or excitement may occur"
+    ],
+    "thoughts": [
+      "Their setback feels satisfying."
+    ],
+    "action_tendencies": [
+      "Watch, gloat, or conceal satisfaction"
+    ],
+    "needs": [
+      "Status or perceived justice may be implicated"
+    ],
+    "contexts": [
+      "Rivalry or perceived deserved misfortune"
+    ],
+    "examples": [
+      {
+        "text": "I know it sounds unkind, but I enjoyed seeing them lose.",
+        "possible_states": [
+          "schadenfreude",
+          "relief",
+          "resentment"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "schadenfreude2018"
+    ],
+    "basis": "editorial_synthesis",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies."
+  },
+  {
+    "id": "awe",
+    "name": "Awe",
+    "kind": "emotion",
+    "definition": "A response to perceived vastness or significance that stretches one's usual understanding.",
+    "aliases": [],
+    "components": [],
+    "qualities": {
+      "valence": "mixed",
+      "arousal": "variable",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "Stillness or goosebumps may occur"
+    ],
+    "thoughts": [
+      "This is beyond what I expected."
+    ],
+    "action_tendencies": [
+      "Attend, contemplate, or seek understanding"
+    ],
+    "needs": [
+      "Meaning and orientation"
+    ],
+    "contexts": [
+      "Nature, art, collective events, or powerful experiences"
+    ],
+    "examples": [
+      {
+        "text": "I feel very small looking at this.",
+        "possible_states": [
+          "awe",
+          "fear",
+          "admiration"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies."
+  },
+  {
+    "id": "admiration",
+    "name": "Admiration",
+    "kind": "emotion",
+    "definition": "Appreciation of someone or something perceived as excellent or exemplary.",
+    "aliases": [],
+    "components": [],
+    "qualities": {
+      "valence": "pleasant",
+      "arousal": "variable",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "Attentive interest"
+    ],
+    "thoughts": [
+      "That is something worth learning from."
+    ],
+    "action_tendencies": [
+      "Observe, praise, or emulate"
+    ],
+    "needs": [
+      "Inspiration and learning"
+    ],
+    "contexts": [
+      "Witnessing skill or valued conduct"
+    ],
+    "examples": [
+      {
+        "text": "I would love to learn how they did that.",
+        "possible_states": [
+          "admiration",
+          "awe",
+          "envy"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies."
+  },
+  {
+    "id": "curiosity",
+    "name": "Curiosity",
+    "kind": "mental_state",
+    "definition": "Interest in resolving an information gap or exploring something unfamiliar.",
+    "aliases": [],
+    "components": [],
+    "qualities": {
+      "valence": "pleasant_or_mixed",
+      "arousal": "variable",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "Alert attention"
+    ],
+    "thoughts": [
+      "How does this work?"
+    ],
+    "action_tendencies": [
+      "Ask, inspect, or experiment"
+    ],
+    "needs": [
+      "Understanding and exploration"
+    ],
+    "contexts": [
+      "Novelty or an unanswered question"
+    ],
+    "examples": [
+      {
+        "text": "Tell me more about that.",
+        "possible_states": [
+          "curiosity",
+          "confusion",
+          "excitement"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies."
+  },
+  {
+    "id": "confusion",
+    "name": "Confusion",
+    "kind": "mental_state",
+    "definition": "Difficulty forming a coherent understanding of available information.",
+    "aliases": [],
+    "components": [],
+    "qualities": {
+      "valence": "unpleasant_or_mixed",
+      "arousal": "variable",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "Hesitation or tension"
+    ],
+    "thoughts": [
+      "These pieces do not fit."
+    ],
+    "action_tendencies": [
+      "Ask, recheck, or pause"
+    ],
+    "needs": [
+      "Clarity and orientation"
+    ],
+    "contexts": [
+      "Contradictory or unfamiliar information"
+    ],
+    "examples": [
+      {
+        "text": "I am not following what you mean.",
+        "possible_states": [
+          "confusion",
+          "curiosity",
+          "frustration"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies."
+  },
+  {
+    "id": "boredom",
+    "name": "Boredom",
+    "kind": "mental_state",
+    "definition": "An aversive lack of satisfying engagement with the present activity.",
+    "aliases": [],
+    "components": [],
+    "qualities": {
+      "valence": "unpleasant",
+      "arousal": "low_or_restless",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "Sluggishness or fidgeting"
+    ],
+    "thoughts": [
+      "Nothing here holds my attention."
+    ],
+    "action_tendencies": [
+      "Seek change or disengage"
+    ],
+    "needs": [
+      "Engagement and meaning"
+    ],
+    "contexts": [
+      "Repetition or an ill-fitting task"
+    ],
+    "examples": [
+      {
+        "text": "Can we do something else?",
+        "possible_states": [
+          "boredom",
+          "frustration",
+          "calm"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "boredom2018"
+    ],
+    "basis": "editorial_synthesis",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies."
+  },
+  {
+    "id": "overwhelm",
+    "name": "Overwhelm",
+    "kind": "mental_state",
+    "definition": "A sense that current demands or feelings exceed available capacity.",
+    "aliases": [],
+    "components": [],
+    "qualities": {
+      "valence": "unpleasant",
+      "arousal": "variable",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "Agitation, fatigue, or shutdown"
+    ],
+    "thoughts": [
+      "There is too much at once."
+    ],
+    "action_tendencies": [
+      "Pause, escape, or seek assistance"
+    ],
+    "needs": [
+      "Reduced load and support"
+    ],
+    "contexts": [
+      "Competing demands, sensory load, or intense feeling"
+    ],
+    "examples": [
+      {
+        "text": "I cannot handle one more thing right now.",
+        "possible_states": [
+          "overwhelm",
+          "anxiety",
+          "irritability"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "sleep2024"
+    ],
+    "basis": "editorial_synthesis",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies."
+  },
+  {
+    "id": "numbness",
+    "name": "Emotional numbness",
+    "kind": "mental_state",
+    "definition": "A subjectively reduced access to feeling or emotional responsiveness.",
+    "aliases": [
+      "feeling emotionally blank"
+    ],
+    "components": [],
+    "qualities": {
+      "valence": "neutral_or_unpleasant",
+      "arousal": "low_or_variable",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "A disconnected or muted feeling"
+    ],
+    "thoughts": [
+      "I know it matters, but I feel little."
+    ],
+    "action_tendencies": [
+      "Function mechanically or withdraw"
+    ],
+    "needs": [
+      "Space and understanding"
+    ],
+    "contexts": [
+      "A period of overload, loss, or other conditions"
+    ],
+    "examples": [
+      {
+        "text": "I expected to cry, but I feel blank.",
+        "possible_states": [
+          "numbness",
+          "calm",
+          "grief"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "bereavement"
+    ],
+    "basis": "editorial_synthesis",
+    "notes": "Descriptive state, not a diagnosis. Bereavement is one possible context; this entry does not establish an individual cause. Illustrations are editorial, not diagnostic signs."
+  },
+  {
+    "id": "nostalgia",
+    "name": "Nostalgia",
+    "kind": "mixed_state",
+    "definition": "Emotionally colored longing for a personally meaningful past.",
+    "aliases": [],
+    "components": [
+      "love",
+      "sadness"
+    ],
+    "qualities": {
+      "valence": "mixed",
+      "arousal": "variable",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "Warmth or ache"
+    ],
+    "thoughts": [
+      "I wish I could revisit that time."
+    ],
+    "action_tendencies": [
+      "Remember, reconnect, or tell stories"
+    ],
+    "needs": [
+      "Continuity and belonging"
+    ],
+    "contexts": [
+      "Old places, music, photographs, or life transitions"
+    ],
+    "examples": [
+      {
+        "text": "I miss those days, even though life was complicated.",
+        "possible_states": [
+          "nostalgia",
+          "sadness",
+          "joy"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "endings2021"
+    ],
+    "basis": "editorial_synthesis",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies. Components are possible constituent experiences, not necessary ingredients or a universal equation."
+  },
+  {
+    "id": "bittersweetness",
+    "name": "Bittersweetness",
+    "kind": "mixed_state",
+    "definition": "The simultaneous presence of pleasant and painful feeling around the same meaningful experience.",
+    "aliases": [
+      "bittersweet feeling"
+    ],
+    "components": [
+      "joy",
+      "sadness"
+    ],
+    "qualities": {
+      "valence": "mixed",
+      "arousal": "variable",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "Smiling and tears can coexist"
+    ],
+    "thoughts": [
+      "I am glad and sad at once."
+    ],
+    "action_tendencies": [
+      "Savor while acknowledging loss"
+    ],
+    "needs": [
+      "Room for complexity"
+    ],
+    "contexts": [
+      "A valued ending or mixed outcome"
+    ],
+    "examples": [
+      {
+        "text": "I am happy to move forward and sad to leave.",
+        "possible_states": [
+          "bittersweetness",
+          "joy",
+          "sadness"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "mixed2001"
+    ],
+    "basis": "editorial_synthesis",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies. Components are possible constituent experiences, not necessary ingredients or a universal equation."
+  },
+  {
+    "id": "grief-with-relief",
+    "name": "Grief with relief",
+    "kind": "mixed_state",
+    "definition": "Coexisting sorrow about a loss and easing of a burden associated with it.",
+    "aliases": [],
+    "components": [
+      "grief",
+      "relief"
+    ],
+    "qualities": {
+      "valence": "mixed",
+      "arousal": "variable",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "Tears alongside released tension"
+    ],
+    "thoughts": [
+      "I miss them, and I am relieved the struggle ended."
+    ],
+    "action_tendencies": [
+      "Mourn and rest"
+    ],
+    "needs": [
+      "Permission for complex feeling"
+    ],
+    "contexts": [
+      "A loss that also ends suffering or strain"
+    ],
+    "examples": [
+      {
+        "text": "I am heartbroken, but also relieved.",
+        "possible_states": [
+          "grief-with-relief",
+          "grief",
+          "relief"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "mixed2001"
+    ],
+    "basis": "editorial_synthesis",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies. Components are possible constituent experiences, not necessary ingredients or a universal equation."
+  },
+  {
+    "id": "anxious-excitement",
+    "name": "Anxious excitement",
+    "kind": "mixed_state",
+    "definition": "Coexisting attraction toward a possibility and apprehension about its uncertainty.",
+    "aliases": [],
+    "components": [
+      "anxiety",
+      "excitement"
+    ],
+    "qualities": {
+      "valence": "mixed",
+      "arousal": "high",
+      "intensity": "Variable; the label does not fix strength.",
+      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+    },
+    "body": [
+      "Quickened heartbeat or restlessness"
+    ],
+    "thoughts": [
+      "I want this and feel nervous."
+    ],
+    "action_tendencies": [
+      "Approach while preparing or hesitating"
+    ],
+    "needs": [
+      "Opportunity and safety"
+    ],
+    "contexts": [
+      "A desired but uncertain change"
+    ],
+    "examples": [
+      {
+        "text": "I cannot wait, and I am terrified.",
+        "possible_states": [
+          "anxious-excitement",
+          "excitement",
+          "anxiety"
+        ],
+        "note": "Synthetic illustration. The same words can have other meanings, including no strong emotion."
+      }
+    ],
+    "source_ids": [
+      "mixed2001"
+    ],
+    "basis": "editorial_synthesis",
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies. Components are possible constituent experiences, not necessary ingredients or a universal equation."
+  }
+]
