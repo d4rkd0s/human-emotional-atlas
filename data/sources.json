@@ -1,1 +1,130 @@
-[]
+[
+  {
+    "id": "cowen2017",
+    "title": "Cowen & Keltner (2017), Self-report captures 27 distinct categories of emotion bridged by continuous gradients",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5617253/",
+    "tradition": "Affective science",
+    "scope": "Conceptual anchor for fuzzy emotional categories and a small set of explicitly identified semantic neighbors.",
+    "limitations": "Video-elicited reports from a particular study are not a universal inventory or temporal transition probabilities. HEA editorial entries are not a reproduction of its category map."
+  },
+  {
+    "id": "bodily2014",
+    "title": "Nummenmaa et al. (2014), Bodily maps of emotions",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3896150/",
+    "tradition": "Affective science",
+    "scope": "Anchor for discussing emotion together with subjective bodily experience.",
+    "limitations": "Self-reported sensations do not establish diagnostic bodily fingerprints; HEA illustrations are not measurements from this study."
+  },
+  {
+    "id": "moral2007",
+    "title": "Tangney, Stuewig & Mashek (2007), Moral emotions and moral behavior",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3083636/",
+    "tradition": "Psychological review",
+    "scope": "Conceptual distinctions among shame, guilt, embarrassment, pride, and related self-evaluation.",
+    "limitations": "Review-level support for distinctions; not proof of every HEA example or proposed transition. Cultural and theoretical alternatives remain."
+  },
+  {
+    "id": "mixed2001",
+    "title": "Larsen, McGraw & Cacioppo (2001), Can people feel happy and sad at the same time?",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/11642354/",
+    "tradition": "Experimental psychology",
+    "scope": "Evidence that happiness and sadness can coexist; conceptual starting point for explicitly editorial mixtures.",
+    "limitations": "Does not validate every combination or establish a universal mixture formula. Other HEA mixtures are editorial constructions."
+  },
+  {
+    "id": "endings2021",
+    "title": "Larsen et al. (2021), Meaningful endings and mixed emotions: The double-edged sword of reminiscence on good times",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8817627/",
+    "tradition": "Experimental psychology",
+    "scope": "Meaningful endings, reminiscence, and mixed feelings.",
+    "limitations": "Study contexts do not cover all nostalgia, grief, or cultures; no fixed emotional sequence follows."
+  },
+  {
+    "id": "envy1993",
+    "title": "Parrott & Smith (1993), Distinguishing the experiences of envy and jealousy",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/8326472/",
+    "tradition": "Experimental psychology",
+    "scope": "Comparison of envy and jealousy using recollection and experimentally manipulated stories.",
+    "limitations": "Conceptual distinctions and reported associations do not prove what any individual feels or whether a relationship threat is real."
+  },
+  {
+    "id": "schadenfreude2018",
+    "title": "Lange, Weidman & Crusius (2018), The painful duality of envy",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29376662/",
+    "tradition": "Psychology research and meta-analysis",
+    "scope": "Distinguishes forms of envy and their relationship with schadenfreude.",
+    "limitations": "The association depends on how envy is defined; envy does not inevitably become pleasure at misfortune."
+  },
+  {
+    "id": "sleep2024",
+    "title": "Palmer et al. (2024), Sleep loss and emotion: A systematic review and meta-analysis of over 50 years of experimental research",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38127505/",
+    "tradition": "Experimental research synthesis",
+    "scope": "Sleep reduction can influence emotional functioning; supports including bodily context.",
+    "limitations": "Group-level experimental effects are not a diagnosis or a cause attribution for an individual. Overwhelm descriptions are editorial extensions, not a named finding."
+  },
+  {
+    "id": "gratitude2003",
+    "title": "Emmons & McCullough (2003), Counting blessings versus burdens",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/12585811/",
+    "tradition": "Experimental psychology",
+    "scope": "Gratitude and subjective well-being in structured diary studies.",
+    "limitations": "Does not imply that gratitude must be induced or that it reliably removes another emotion."
+  },
+  {
+    "id": "four-immeasurables",
+    "title": "Buddhagupta, An Extensive Commentary on the Four Immeasurables, translated at Lotsawa House",
+    "url": "https://www.lotsawahouse.org/indian-masters/buddhagupta/four-immeasurables-commentary",
+    "tradition": "Mahayana Buddhism",
+    "scope": "Conceptual source for goodwill, compassion, appreciative joy, and equanimity.",
+    "limitations": "Tradition-specific contemplative account; not population statistics. HEA offers short original descriptions, not the translation or its full doctrinal meanings."
+  },
+  {
+    "id": "an5161",
+    "title": "AN 5.161, Removing Annoyance, translated by Ñanamoli Thera",
+    "url": "https://www.accesstoinsight.org/tipitaka/an/an05/an05.161.nymo.html",
+    "tradition": "Early Buddhist discourse, Theravada transmission",
+    "scope": "Traditional association of annoyance with cultivation of goodwill, compassion, and equanimity.",
+    "limitations": "Describes practice in a monastic teaching context, not a guaranteed interpersonal remedy. Linked translation retains its own rights; it is not republished in HEA."
+  },
+  {
+    "id": "patience",
+    "title": "Shantideva, Engaging in Bodhisattva Behavior, chapter 6, translated by Alexander Berzin",
+    "url": "https://studybuddhism.com/en/tibetan-buddhism/original-texts/sutra-texts/engaging-in-bodhisattva-behavior/showing-patience",
+    "tradition": "Mahayana Buddhism",
+    "scope": "Traditional contrast between anger and cultivated patience.",
+    "limitations": "Ethical and contemplative teaching, not empirical proof that patience changes a particular emotional episode. No translation passages are reproduced."
+  },
+  {
+    "id": "arrow",
+    "title": "SN 36.6, The Arrow, translated by Thanissaro Bhikkhu",
+    "url": "https://www.accesstoinsight.org/tipitaka/sn/sn36/sn36.006.than.html",
+    "tradition": "Early Buddhist discourse, Theravada transmission",
+    "scope": "Distinction between painful feeling and additional mental reactivity.",
+    "limitations": "Feeling tone in this discourse is not identical to the modern category emotion. Acceptance links are editorial comparisons, not an exact translation."
+  },
+  {
+    "id": "bereavement",
+    "title": "Clinical Care Considerations for Bereaved Patients (2022)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9312455/",
+    "tradition": "Clinical review",
+    "scope": "Varied experiences during bereavement, including sorrow, numbness, and anger.",
+    "limitations": "Bereavement context does not explain every instance of emotional numbness; HEA does not diagnose or prescribe care."
+  },
+  {
+    "id": "contempt2017",
+    "title": "Schriber et al. (2017), Dispositional Contempt: A First Look at the Contemptuous Person",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5148737/",
+    "tradition": "Psychological research",
+    "scope": "Contempt and distinctions from neighboring interpersonal emotions.",
+    "limitations": "Much evidence concerns dispositions rather than individual episodes; cannot be used to infer personality from one utterance."
+  },
+  {
+    "id": "boredom2018",
+    "title": "The state of boredom: Frustrating or depressing? (2018)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6208645/",
+    "tradition": "Psychological research",
+    "scope": "Relationship between boredom, frustration, and task autonomy.",
+    "limitations": "Findings are conditional on studied tasks; boredom and frustration are neither equivalent nor an inevitable sequence."
+  }
+]

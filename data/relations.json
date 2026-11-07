@@ -1,1 +1,1918 @@
-[]
+[
+  {
+    "id": "anxiety-neighbor-fear",
+    "from": "anxiety",
+    "to": "fear",
+    "type": "neighbor",
+    "description": "Anticipated uncertain threat and perceived danger can shade into each other.",
+    "conditions": [
+      "Semantic proximity in self-reported responses to evocative videos in Cowen and Keltner (2017); this is not evidence of a temporal transition."
+    ],
+    "counterexamples": [
+      "Anxiety can remain diffuse without immediate fear."
+    ],
+    "source_ids": [
+      "cowen2017"
+    ],
+    "basis": "empirical"
+  },
+  {
+    "id": "fear-neighbor-horror",
+    "from": "fear",
+    "to": "horror",
+    "type": "neighbor",
+    "description": "Fear and horror occupy nearby parts of the reported emotion space in this study.",
+    "conditions": [
+      "A frightening event is also deeply disturbing."
+    ],
+    "counterexamples": [
+      "Fear of a routine risk need not involve horror."
+    ],
+    "source_ids": [
+      "cowen2017"
+    ],
+    "basis": "empirical"
+  },
+  {
+    "id": "horror-neighbor-disgust",
+    "from": "horror",
+    "to": "disgust",
+    "type": "neighbor",
+    "description": "Horror and disgust can overlap in responses to aversive scenes.",
+    "conditions": [
+      "A scene is both disturbing and repellent."
+    ],
+    "counterexamples": [
+      "Horror need not involve contamination or revulsion."
+    ],
+    "source_ids": [
+      "cowen2017"
+    ],
+    "basis": "empirical"
+  },
+  {
+    "id": "joy-neighbor-amusement",
+    "from": "joy",
+    "to": "amusement",
+    "type": "neighbor",
+    "description": "Enjoyment can include playful humor.",
+    "conditions": [
+      "A welcome event is funny."
+    ],
+    "counterexamples": [
+      "Joy need not involve laughter."
+    ],
+    "source_ids": [
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "joy-neighbor-excitement",
+    "from": "joy",
+    "to": "excitement",
+    "type": "neighbor",
+    "description": "Pleasant engagement can have an energized quality.",
+    "conditions": [
+      "A valued opportunity is unfolding."
+    ],
+    "counterexamples": [
+      "Quiet joy can lack excitement."
+    ],
+    "source_ids": [
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "joy-neighbor-contentment",
+    "from": "joy",
+    "to": "contentment",
+    "type": "neighbor",
+    "description": "Pleasure can include a sense of enoughness.",
+    "conditions": [
+      "The present feels welcome and sufficient."
+    ],
+    "counterexamples": [
+      "Excited joy may involve wanting more."
+    ],
+    "source_ids": [
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "contentment-neighbor-calm",
+    "from": "contentment",
+    "to": "calm",
+    "type": "neighbor",
+    "description": "Satisfaction and settled activation can coincide.",
+    "conditions": [
+      "Demands feel manageable."
+    ],
+    "counterexamples": [
+      "A calm person may be dissatisfied."
+    ],
+    "source_ids": [
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "sadness-neighbor-grief",
+    "from": "sadness",
+    "to": "grief",
+    "type": "neighbor",
+    "description": "Sorrow can be part of responding to loss.",
+    "conditions": [
+      "Something deeply valued is lost."
+    ],
+    "counterexamples": [
+      "Sadness need not be grief."
+    ],
+    "source_ids": [
+      "cowen2017",
+      "bereavement"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "sadness-neighbor-disappointment",
+    "from": "sadness",
+    "to": "disappointment",
+    "type": "neighbor",
+    "description": "An unmet expectation can carry sorrow.",
+    "conditions": [
+      "A hoped-for result does not arrive."
+    ],
+    "counterexamples": [
+      "Disappointment may instead feel irritated."
+    ],
+    "source_ids": [
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "anger-neighbor-frustration",
+    "from": "anger",
+    "to": "frustration",
+    "type": "neighbor",
+    "description": "Obstruction can be experienced as both anger and frustration.",
+    "conditions": [
+      "A blocked goal feels unfair."
+    ],
+    "counterexamples": [
+      "Frustration can remain non-angry."
+    ],
+    "source_ids": [
+      "bodily2014",
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "anger-neighbor-resentment",
+    "from": "anger",
+    "to": "resentment",
+    "type": "neighbor",
+    "description": "An immediate grievance can resemble a persistent one.",
+    "conditions": [
+      "An offense remains salient."
+    ],
+    "counterexamples": [
+      "Anger can end without resentment."
+    ],
+    "source_ids": [
+      "bodily2014",
+      "an5161"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "anger-neighbor-hatred",
+    "from": "anger",
+    "to": "hatred",
+    "type": "neighbor",
+    "description": "Both can involve strong opposition.",
+    "conditions": [
+      "Anger broadens into rejection of its target."
+    ],
+    "counterexamples": [
+      "A person can be angry with someone they love."
+    ],
+    "source_ids": [
+      "bodily2014",
+      "an5161"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "anger-neighbor-irritability",
+    "from": "anger",
+    "to": "irritability",
+    "type": "neighbor",
+    "description": "Readiness for annoyance can accompany anger.",
+    "conditions": [
+      "Several small irritants accumulate."
+    ],
+    "counterexamples": [
+      "Irritability need not target anyone."
+    ],
+    "source_ids": [
+      "bodily2014",
+      "sleep2024"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "disgust-neighbor-contempt",
+    "from": "disgust",
+    "to": "contempt",
+    "type": "neighbor",
+    "description": "Revulsion and disdain can overlap in moral judgment.",
+    "conditions": [
+      "Conduct is judged repellent and beneath respect."
+    ],
+    "counterexamples": [
+      "Physical disgust need not involve contempt."
+    ],
+    "source_ids": [
+      "cowen2017",
+      "contempt2017"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "shame-neighbor-guilt",
+    "from": "shame",
+    "to": "guilt",
+    "type": "neighbor",
+    "description": "Both can accompany a perceived failing, with different evaluative focus.",
+    "conditions": [
+      "A person judges both self and action negatively."
+    ],
+    "counterexamples": [
+      "Guilt can be specific without global self-condemnation."
+    ],
+    "source_ids": [
+      "moral2007"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "shame-neighbor-embarrassment",
+    "from": "shame",
+    "to": "embarrassment",
+    "type": "neighbor",
+    "description": "Both can involve uncomfortable self-consciousness.",
+    "conditions": [
+      "Unwanted attention feels exposing."
+    ],
+    "counterexamples": [
+      "Embarrassment can be light and brief."
+    ],
+    "source_ids": [
+      "moral2007"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "guilt-neighbor-regret",
+    "from": "guilt",
+    "to": "regret",
+    "type": "neighbor",
+    "description": "A judged harmful choice can also evoke wishing one had chosen differently.",
+    "conditions": [
+      "An action harmed someone."
+    ],
+    "counterexamples": [
+      "Regret can concern a harmless missed opportunity."
+    ],
+    "source_ids": [
+      "moral2007"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "regret-neighbor-disappointment",
+    "from": "regret",
+    "to": "disappointment",
+    "type": "neighbor",
+    "description": "Both can accompany an unwanted outcome.",
+    "conditions": [
+      "A choice produced less than hoped."
+    ],
+    "counterexamples": [
+      "Disappointment need not involve self-attributed choice."
+    ],
+    "source_ids": [
+      "moral2007",
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "love-neighbor-compassion",
+    "from": "love",
+    "to": "compassion",
+    "type": "neighbor",
+    "description": "Care for someone can include concern about their suffering.",
+    "conditions": [
+      "A loved person is struggling."
+    ],
+    "counterexamples": [
+      "Love can occur without present suffering."
+    ],
+    "source_ids": [
+      "bodily2014",
+      "four-immeasurables"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "love-neighbor-loving-kindness",
+    "from": "love",
+    "to": "loving-kindness",
+    "type": "neighbor",
+    "description": "Affection and goodwill share a caring orientation.",
+    "conditions": [
+      "One wishes another well."
+    ],
+    "counterexamples": [
+      "Goodwill need not involve close attachment."
+    ],
+    "source_ids": [
+      "bodily2014",
+      "four-immeasurables"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "compassion-neighbor-loving-kindness",
+    "from": "compassion",
+    "to": "loving-kindness",
+    "type": "neighbor",
+    "description": "Concern for suffering and wishes for well-being can overlap.",
+    "conditions": [
+      "A person needs care."
+    ],
+    "counterexamples": [
+      "Goodwill can occur without perceived distress."
+    ],
+    "source_ids": [
+      "four-immeasurables"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "compassion-neighbor-sadness",
+    "from": "compassion",
+    "to": "sadness",
+    "type": "neighbor",
+    "description": "Concern for suffering may feel sorrowful.",
+    "conditions": [
+      "Another's pain is vivid."
+    ],
+    "counterexamples": [
+      "Compassion can be steady rather than sad."
+    ],
+    "source_ids": [
+      "four-immeasurables",
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "calm-neighbor-equanimity",
+    "from": "calm",
+    "to": "equanimity",
+    "type": "neighbor",
+    "description": "Settled attention may accompany balanced engagement.",
+    "conditions": [
+      "Experience is met without strong reactivity."
+    ],
+    "counterexamples": [
+      "Equanimity can coexist with bodily activation."
+    ],
+    "source_ids": [
+      "cowen2017",
+      "four-immeasurables"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "equanimity-neighbor-acceptance",
+    "from": "equanimity",
+    "to": "acceptance",
+    "type": "neighbor",
+    "description": "Balance can accompany acknowledgment of reality.",
+    "conditions": [
+      "An unwanted fact is recognized."
+    ],
+    "counterexamples": [
+      "Acceptance can occur with intense distress."
+    ],
+    "source_ids": [
+      "four-immeasurables",
+      "arrow"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "patience-neighbor-equanimity",
+    "from": "patience",
+    "to": "equanimity",
+    "type": "neighbor",
+    "description": "Deliberate steadiness may support both qualities.",
+    "conditions": [
+      "Delay or difficulty is present."
+    ],
+    "counterexamples": [
+      "Patience can be effortful and emotionally stirred."
+    ],
+    "source_ids": [
+      "patience",
+      "four-immeasurables"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "pride-neighbor-joy",
+    "from": "pride",
+    "to": "joy",
+    "type": "neighbor",
+    "description": "Achievement can feel both satisfying and joyful.",
+    "conditions": [
+      "A personally meaningful effort succeeds."
+    ],
+    "counterexamples": [
+      "Joy need not involve achievement."
+    ],
+    "source_ids": [
+      "moral2007",
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "gratitude-neighbor-love",
+    "from": "gratitude",
+    "to": "love",
+    "type": "neighbor",
+    "description": "Appreciation can include warmth toward a benefactor.",
+    "conditions": [
+      "Support is received within a caring relationship."
+    ],
+    "counterexamples": [
+      "Gratitude need not involve attachment."
+    ],
+    "source_ids": [
+      "gratitude2003",
+      "bodily2014"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "envy-neighbor-jealousy",
+    "from": "envy",
+    "to": "jealousy",
+    "type": "neighbor",
+    "description": "Comparison and threatened belonging can be confused or overlap.",
+    "conditions": [
+      "A rival has something valued."
+    ],
+    "counterexamples": [
+      "Envy need not threaten an existing relationship."
+    ],
+    "source_ids": [
+      "envy1993"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "awe-neighbor-admiration",
+    "from": "awe",
+    "to": "admiration",
+    "type": "neighbor",
+    "description": "Wonder and appreciation of excellence may overlap.",
+    "conditions": [
+      "An extraordinary skill is witnessed."
+    ],
+    "counterexamples": [
+      "Awe can arise without an admirable agent."
+    ],
+    "source_ids": [
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "curiosity-neighbor-confusion",
+    "from": "curiosity",
+    "to": "confusion",
+    "type": "neighbor",
+    "description": "An information gap can be both puzzling and engaging.",
+    "conditions": [
+      "Understanding seems attainable."
+    ],
+    "counterexamples": [
+      "Confusion can block curiosity."
+    ],
+    "source_ids": [
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "boredom-neighbor-frustration",
+    "from": "boredom",
+    "to": "frustration",
+    "type": "neighbor",
+    "description": "Unsatisfying engagement can be frustrating.",
+    "conditions": [
+      "Task autonomy is low."
+    ],
+    "counterexamples": [
+      "Boredom can remain passive without frustration."
+    ],
+    "source_ids": [
+      "boredom2018",
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "overwhelm-neighbor-anxiety",
+    "from": "overwhelm",
+    "to": "anxiety",
+    "type": "neighbor",
+    "description": "Demand overload can coexist with anticipation of difficulty.",
+    "conditions": [
+      "Several uncertain demands compete."
+    ],
+    "counterexamples": [
+      "Overwhelm can occur without future-oriented worry."
+    ],
+    "source_ids": [
+      "sleep2024",
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "nostalgia-neighbor-bittersweetness",
+    "from": "nostalgia",
+    "to": "bittersweetness",
+    "type": "neighbor",
+    "description": "Remembering valued times can combine pleasure and ache.",
+    "conditions": [
+      "A remembered period is cherished and gone."
+    ],
+    "counterexamples": [
+      "Nostalgia may be mostly pleasant."
+    ],
+    "source_ids": [
+      "endings2021",
+      "mixed2001"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "relief-neighbor-calm",
+    "from": "relief",
+    "to": "calm",
+    "type": "neighbor",
+    "description": "Release of pressure can be followed by settling.",
+    "conditions": [
+      "A burden appears to have ended."
+    ],
+    "counterexamples": [
+      "Relief can be excited or short-lived."
+    ],
+    "source_ids": [
+      "mixed2001",
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "joy-contrast-sadness",
+    "from": "joy",
+    "to": "sadness",
+    "type": "contrast",
+    "description": "Pleasantness versus sorrow is a useful valence contrast. This is a specified contrast, not a universal opposite or antidote.",
+    "conditions": [
+      "Both refer to the same event or interval."
+    ],
+    "counterexamples": [
+      "They can coexist in bittersweet experience."
+    ],
+    "source_ids": [
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "hope-contrast-despair",
+    "from": "hope",
+    "to": "despair",
+    "type": "contrast",
+    "description": "Perceived possibility contrasts with felt absence of a way forward. This is a specified contrast, not a universal opposite or antidote.",
+    "conditions": [
+      "The same valued outcome is considered."
+    ],
+    "counterexamples": [
+      "Hope and despair can alternate or concern different outcomes."
+    ],
+    "source_ids": [
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "calm-contrast-anxiety",
+    "from": "calm",
+    "to": "anxiety",
+    "type": "contrast",
+    "description": "Settled activation contrasts with apprehensive activation. This is a specified contrast, not a universal opposite or antidote.",
+    "conditions": [
+      "Compare the level of felt agitation."
+    ],
+    "counterexamples": [
+      "A person can be outwardly calm while anxious."
+    ],
+    "source_ids": [
+      "cowen2017",
+      "sleep2024"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "contentment-contrast-envy",
+    "from": "contentment",
+    "to": "envy",
+    "type": "contrast",
+    "description": "Felt sufficiency contrasts with painful comparison. This is a specified contrast, not a universal opposite or antidote.",
+    "conditions": [
+      "Attention concerns what one has relative to another."
+    ],
+    "counterexamples": [
+      "One can feel content in one domain and envious in another."
+    ],
+    "source_ids": [
+      "cowen2017",
+      "envy1993"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "compassion-contrast-schadenfreude",
+    "from": "compassion",
+    "to": "schadenfreude",
+    "type": "contrast",
+    "description": "Concern at suffering contrasts with pleasure at another's misfortune. This is a specified contrast, not a universal opposite or antidote.",
+    "conditions": [
+      "The same person's setback is the focus."
+    ],
+    "counterexamples": [
+      "Mixed responses to the same event are possible."
+    ],
+    "source_ids": [
+      "four-immeasurables",
+      "schadenfreude2018"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "sympathetic-joy-contrast-envy",
+    "from": "sympathetic-joy",
+    "to": "envy",
+    "type": "contrast",
+    "description": "Gladness for another's benefit contrasts with pain at their advantage. This is a specified contrast, not a universal opposite or antidote.",
+    "conditions": [
+      "Another's success is the focus."
+    ],
+    "counterexamples": [
+      "A person can feel both at once."
+    ],
+    "source_ids": [
+      "four-immeasurables",
+      "envy1993"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "loving-kindness-contrast-hatred",
+    "from": "loving-kindness",
+    "to": "hatred",
+    "type": "contrast",
+    "description": "Goodwill contrasts with strong rejection or hostility. This is a specified contrast, not a universal opposite or antidote.",
+    "conditions": [
+      "The same target is considered."
+    ],
+    "counterexamples": [
+      "Goodwill can coexist with opposition to harmful conduct."
+    ],
+    "source_ids": [
+      "four-immeasurables",
+      "an5161"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "patience-contrast-anger",
+    "from": "patience",
+    "to": "anger",
+    "type": "contrast",
+    "description": "Deliberate non-retaliation contrasts with an urge to react against an offense. This is a specified contrast, not a universal opposite or antidote.",
+    "conditions": [
+      "An offense or obstruction is being met."
+    ],
+    "counterexamples": [
+      "Patience does not require anger to be absent."
+    ],
+    "source_ids": [
+      "patience",
+      "bodily2014"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "curiosity-contrast-boredom",
+    "from": "curiosity",
+    "to": "boredom",
+    "type": "contrast",
+    "description": "Engaged inquiry contrasts with unsatisfying engagement. This is a specified contrast, not a universal opposite or antidote.",
+    "conditions": [
+      "The same activity is being considered."
+    ],
+    "counterexamples": [
+      "A person may be bored with a task and curious about its purpose."
+    ],
+    "source_ids": [
+      "cowen2017",
+      "boredom2018"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "acceptance-contrast-resentment",
+    "from": "acceptance",
+    "to": "resentment",
+    "type": "contrast",
+    "description": "Acknowledging reality contrasts with continuing grievance in one possible dimension. This is a specified contrast, not a universal opposite or antidote.",
+    "conditions": [
+      "The person is considering an unresolved event."
+    ],
+    "counterexamples": [
+      "Acceptance can coexist with a demand for justice."
+    ],
+    "source_ids": [
+      "arrow",
+      "an5161"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "calm-contrast-numbness",
+    "from": "calm",
+    "to": "numbness",
+    "type": "contrast",
+    "description": "Available settled feeling differs from muted access to feeling despite superficial quietness. This is a specified contrast, not a universal opposite or antidote.",
+    "conditions": [
+      "Both appear externally inactive."
+    ],
+    "counterexamples": [
+      "Low visible expression does not distinguish either state."
+    ],
+    "source_ids": [
+      "cowen2017",
+      "bereavement"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "admiration-contrast-contempt",
+    "from": "admiration",
+    "to": "contempt",
+    "type": "contrast",
+    "description": "Respect for excellence contrasts with disdain. This is a specified contrast, not a universal opposite or antidote.",
+    "conditions": [
+      "Evaluations concern the same target."
+    ],
+    "counterexamples": [
+      "Someone can admire a skill while disdaining conduct."
+    ],
+    "source_ids": [
+      "cowen2017",
+      "contempt2017"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "relief-contrast-fear",
+    "from": "relief",
+    "to": "fear",
+    "type": "contrast",
+    "description": "Easing of perceived threat contrasts with its felt presence. This is a specified contrast, not a universal opposite or antidote.",
+    "conditions": [
+      "A particular danger is evaluated."
+    ],
+    "counterexamples": [
+      "Relief about one danger can coexist with fear about another."
+    ],
+    "source_ids": [
+      "mixed2001",
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "pride-contrast-shame",
+    "from": "pride",
+    "to": "shame",
+    "type": "contrast",
+    "description": "Positive and painful self-evaluation can contrast. This is a specified contrast, not a universal opposite or antidote.",
+    "conditions": [
+      "One aspect of self or conduct is evaluated."
+    ],
+    "counterexamples": [
+      "Both can coexist about different aspects of an event."
+    ],
+    "source_ids": [
+      "moral2007"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "anxiety-may-transition-to-fear",
+    "from": "anxiety",
+    "to": "fear",
+    "type": "may_transition_to",
+    "description": "Apprehension may become more immediate fear.",
+    "conditions": [
+      "An uncertain threat seems imminent."
+    ],
+    "counterexamples": [
+      "New information may instead reduce threat."
+    ],
+    "source_ids": [
+      "cowen2017",
+      "sleep2024"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "fear-may-transition-to-relief",
+    "from": "fear",
+    "to": "relief",
+    "type": "may_transition_to",
+    "description": "Fear may ease into relief.",
+    "conditions": [
+      "A perceived threat credibly passes."
+    ],
+    "counterexamples": [
+      "The person may remain vigilant after danger ends."
+    ],
+    "source_ids": [
+      "cowen2017",
+      "mixed2001"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "anxiety-may-transition-to-relief",
+    "from": "anxiety",
+    "to": "relief",
+    "type": "may_transition_to",
+    "description": "An unresolved concern may ease.",
+    "conditions": [
+      "A consequential uncertainty is resolved favorably."
+    ],
+    "counterexamples": [
+      "Reassurance may be unconvincing or incomplete."
+    ],
+    "source_ids": [
+      "cowen2017",
+      "sleep2024",
+      "mixed2001"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "anger-may-transition-to-sadness",
+    "from": "anger",
+    "to": "sadness",
+    "type": "may_transition_to",
+    "description": "Anger may give way to sorrow.",
+    "conditions": [
+      "Attention shifts from the offense to what was lost."
+    ],
+    "counterexamples": [
+      "Anger and sadness may persist together."
+    ],
+    "source_ids": [
+      "bodily2014",
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "fear-may-transition-to-anger",
+    "from": "fear",
+    "to": "anger",
+    "type": "may_transition_to",
+    "description": "Threat may be met with mobilized protest.",
+    "conditions": [
+      "The person perceives a possible boundary defense."
+    ],
+    "counterexamples": [
+      "Fear may instead lead to withdrawal."
+    ],
+    "source_ids": [
+      "cowen2017",
+      "bodily2014"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "frustration-may-transition-to-anger",
+    "from": "frustration",
+    "to": "anger",
+    "type": "may_transition_to",
+    "description": "Blocked effort may become angry protest.",
+    "conditions": [
+      "Obstruction is interpreted as unfair or intentional."
+    ],
+    "counterexamples": [
+      "The obstacle may be treated as impersonal."
+    ],
+    "source_ids": [
+      "cowen2017",
+      "bodily2014"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "frustration-may-transition-to-relief",
+    "from": "frustration",
+    "to": "relief",
+    "type": "may_transition_to",
+    "description": "Frustration may ease when progress resumes.",
+    "conditions": [
+      "A workable route becomes available."
+    ],
+    "counterexamples": [
+      "Exhaustion or resentment may remain."
+    ],
+    "source_ids": [
+      "cowen2017",
+      "mixed2001"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "anger-may-transition-to-resentment",
+    "from": "anger",
+    "to": "resentment",
+    "type": "may_transition_to",
+    "description": "An unresolved offense may become a lasting grievance.",
+    "conditions": [
+      "The event is repeatedly revisited without resolution."
+    ],
+    "counterexamples": [
+      "Anger may dissipate without lasting grievance."
+    ],
+    "source_ids": [
+      "bodily2014",
+      "an5161"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "resentment-may-transition-to-anger",
+    "from": "resentment",
+    "to": "anger",
+    "type": "may_transition_to",
+    "description": "A lingering grievance may become acutely activated.",
+    "conditions": [
+      "A reminder or repeated offense occurs."
+    ],
+    "counterexamples": [
+      "A reminder may instead bring sadness or little feeling."
+    ],
+    "source_ids": [
+      "an5161",
+      "bodily2014"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "shame-may-transition-to-anger",
+    "from": "shame",
+    "to": "anger",
+    "type": "may_transition_to",
+    "description": "Painful self-evaluation may be followed by defensive anger.",
+    "conditions": [
+      "Attention shifts toward blame or perceived humiliation."
+    ],
+    "counterexamples": [
+      "Shame can lead to withdrawal without anger."
+    ],
+    "source_ids": [
+      "moral2007",
+      "bodily2014"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "shame-may-transition-to-guilt",
+    "from": "shame",
+    "to": "guilt",
+    "type": "may_transition_to",
+    "description": "Global self-condemnation may narrow to concern about an action.",
+    "conditions": [
+      "The person distinguishes conduct from their entire identity."
+    ],
+    "counterexamples": [
+      "The self-condemnation may persist."
+    ],
+    "source_ids": [
+      "moral2007"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "guilt-may-transition-to-relief",
+    "from": "guilt",
+    "to": "relief",
+    "type": "may_transition_to",
+    "description": "Guilt may ease after a meaningful repair.",
+    "conditions": [
+      "Responsibility is acknowledged and repair feels adequate."
+    ],
+    "counterexamples": [
+      "Repair may not be possible or sufficient."
+    ],
+    "source_ids": [
+      "moral2007",
+      "mixed2001"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "regret-may-transition-to-acceptance",
+    "from": "regret",
+    "to": "acceptance",
+    "type": "may_transition_to",
+    "description": "Counterfactual dwelling may shift toward acknowledgment.",
+    "conditions": [
+      "Attention turns to the limits of changing the past."
+    ],
+    "counterexamples": [
+      "Acceptance may coexist with continuing regret."
+    ],
+    "source_ids": [
+      "moral2007",
+      "arrow"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "disappointment-may-transition-to-sadness",
+    "from": "disappointment",
+    "to": "sadness",
+    "type": "may_transition_to",
+    "description": "An unmet hope may become sorrow.",
+    "conditions": [
+      "The loss of the hoped-for outcome becomes salient."
+    ],
+    "counterexamples": [
+      "Disappointment can instead mobilize renewed effort."
+    ],
+    "source_ids": [
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "disappointment-may-transition-to-hope",
+    "from": "disappointment",
+    "to": "hope",
+    "type": "may_transition_to",
+    "description": "An unmet expectation may be followed by renewed possibility.",
+    "conditions": [
+      "A credible alternative appears."
+    ],
+    "counterexamples": [
+      "Alternatives may not address the original loss."
+    ],
+    "source_ids": [
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "hope-may-transition-to-disappointment",
+    "from": "hope",
+    "to": "disappointment",
+    "type": "may_transition_to",
+    "description": "Hope may change when a desired outcome fails.",
+    "conditions": [
+      "Evidence contradicts the hoped-for result."
+    ],
+    "counterexamples": [
+      "Hope may persist or move to another outcome."
+    ],
+    "source_ids": [
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "despair-may-transition-to-hope",
+    "from": "despair",
+    "to": "hope",
+    "type": "may_transition_to",
+    "description": "A felt lack of options may shift toward possibility.",
+    "conditions": [
+      "A credible option or supportive connection becomes available."
+    ],
+    "counterexamples": [
+      "A suggestion alone may feel irrelevant or overwhelming."
+    ],
+    "source_ids": [
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "loneliness-may-transition-to-relief",
+    "from": "loneliness",
+    "to": "relief",
+    "type": "may_transition_to",
+    "description": "Disconnection may ease with meaningful contact.",
+    "conditions": [
+      "The contact feels welcome and understanding."
+    ],
+    "counterexamples": [
+      "Unwanted or superficial contact may deepen loneliness."
+    ],
+    "source_ids": [
+      "bodily2014",
+      "mixed2001"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "envy-may-transition-to-admiration",
+    "from": "envy",
+    "to": "admiration",
+    "type": "may_transition_to",
+    "description": "Painful comparison may shift toward appreciation.",
+    "conditions": [
+      "Attention moves from relative disadvantage to valued skill."
+    ],
+    "counterexamples": [
+      "Comparison may continue to feel threatening."
+    ],
+    "source_ids": [
+      "envy1993",
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "envy-may-transition-to-schadenfreude",
+    "from": "envy",
+    "to": "schadenfreude",
+    "type": "may_transition_to",
+    "description": "Envy may precede pleasure at a rival's setback.",
+    "conditions": [
+      "The envy includes wishing to diminish the rival."
+    ],
+    "counterexamples": [
+      "Envy oriented toward self-improvement need not do so."
+    ],
+    "source_ids": [
+      "envy1993",
+      "schadenfreude2018"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "confusion-may-transition-to-curiosity",
+    "from": "confusion",
+    "to": "curiosity",
+    "type": "may_transition_to",
+    "description": "Not understanding may become inviting exploration.",
+    "conditions": [
+      "The gap feels manageable and safe to investigate."
+    ],
+    "counterexamples": [
+      "Overload or threat may prevent engagement."
+    ],
+    "source_ids": [
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "confusion-may-transition-to-frustration",
+    "from": "confusion",
+    "to": "frustration",
+    "type": "may_transition_to",
+    "description": "Unclear information may become distressing obstruction.",
+    "conditions": [
+      "Repeated attempts to understand fail."
+    ],
+    "counterexamples": [
+      "The uncertainty may remain enjoyable."
+    ],
+    "source_ids": [
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "boredom-may-transition-to-curiosity",
+    "from": "boredom",
+    "to": "curiosity",
+    "type": "may_transition_to",
+    "description": "Unsatisfying engagement may shift toward interest.",
+    "conditions": [
+      "A meaningful question or novel feature becomes apparent."
+    ],
+    "counterexamples": [
+      "Novelty may fail to engage."
+    ],
+    "source_ids": [
+      "boredom2018",
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "overwhelm-may-transition-to-relief",
+    "from": "overwhelm",
+    "to": "relief",
+    "type": "may_transition_to",
+    "description": "Excess demand may become more manageable.",
+    "conditions": [
+      "Load is reduced or useful support arrives."
+    ],
+    "counterexamples": [
+      "The person may need time to recover."
+    ],
+    "source_ids": [
+      "sleep2024",
+      "mixed2001"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "irritability-may-transition-to-calm",
+    "from": "irritability",
+    "to": "calm",
+    "type": "may_transition_to",
+    "description": "Readiness for annoyance may settle.",
+    "conditions": [
+      "Discomfort or demands lessen and rest becomes available."
+    ],
+    "counterexamples": [
+      "A deeper unresolved concern may remain."
+    ],
+    "source_ids": [
+      "sleep2024",
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "excitement-may-transition-to-disappointment",
+    "from": "excitement",
+    "to": "disappointment",
+    "type": "may_transition_to",
+    "description": "Energized expectation may fall into disappointment.",
+    "conditions": [
+      "An anticipated experience does not materialize."
+    ],
+    "counterexamples": [
+      "The person may feel neutral or adapt quickly."
+    ],
+    "source_ids": [
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "joy-may-transition-to-nostalgia",
+    "from": "joy",
+    "to": "nostalgia",
+    "type": "may_transition_to",
+    "description": "Present enjoyment may become fond longing in memory.",
+    "conditions": [
+      "A meaningful period has ended."
+    ],
+    "counterexamples": [
+      "Remembrance need not include longing."
+    ],
+    "source_ids": [
+      "cowen2017",
+      "endings2021"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "grief-may-transition-to-gratitude",
+    "from": "grief",
+    "to": "gratitude",
+    "type": "may_transition_to",
+    "description": "Loss may bring appreciation alongside sorrow.",
+    "conditions": [
+      "A valued memory or past kindness comes to mind."
+    ],
+    "counterexamples": [
+      "Gratitude is not required and does not erase grief."
+    ],
+    "source_ids": [
+      "bereavement",
+      "gratitude2003"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "relief-may-transition-to-guilt",
+    "from": "relief",
+    "to": "guilt",
+    "type": "may_transition_to",
+    "description": "Easing can itself become a focus of self-judgment.",
+    "conditions": [
+      "A person believes relief after loss is disloyal."
+    ],
+    "counterexamples": [
+      "Relief can be accepted without guilt."
+    ],
+    "source_ids": [
+      "mixed2001",
+      "moral2007"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "embarrassment-may-transition-to-amusement",
+    "from": "embarrassment",
+    "to": "amusement",
+    "type": "may_transition_to",
+    "description": "Social discomfort may soften into shared humor.",
+    "conditions": [
+      "The situation feels safe and laughter is welcome."
+    ],
+    "counterexamples": [
+      "Teasing can intensify embarrassment."
+    ],
+    "source_ids": [
+      "moral2007",
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "pride-may-transition-to-gratitude",
+    "from": "pride",
+    "to": "gratitude",
+    "type": "may_transition_to",
+    "description": "Achievement satisfaction may widen to appreciation.",
+    "conditions": [
+      "Contributions from others become salient."
+    ],
+    "counterexamples": [
+      "Pride need not disappear or turn into gratitude."
+    ],
+    "source_ids": [
+      "moral2007",
+      "gratitude2003"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "schadenfreude-may-transition-to-guilt",
+    "from": "schadenfreude",
+    "to": "guilt",
+    "type": "may_transition_to",
+    "description": "Pleasure at misfortune may be followed by moral discomfort.",
+    "conditions": [
+      "The person notices a conflict with their values."
+    ],
+    "counterexamples": [
+      "They may regard the misfortune as deserved."
+    ],
+    "source_ids": [
+      "schadenfreude2018",
+      "moral2007"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "contempt-may-transition-to-compassion",
+    "from": "contempt",
+    "to": "compassion",
+    "type": "may_transition_to",
+    "description": "Disdain may shift toward concern.",
+    "conditions": [
+      "The target's vulnerability becomes salient."
+    ],
+    "counterexamples": [
+      "Understanding someone does not necessarily change disdain."
+    ],
+    "source_ids": [
+      "contempt2017",
+      "four-immeasurables"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "resentment-may-transition-to-loving-kindness",
+    "from": "resentment",
+    "to": "loving-kindness",
+    "type": "may_transition_to",
+    "description": "Goodwill toward an annoying person is described as a traditional practice association.",
+    "conditions": [
+      "In the contemplative context of AN 5.161."
+    ],
+    "counterexamples": [
+      "This is not a guaranteed sequence, demand, or instruction for an outside agent to induce."
+    ],
+    "source_ids": [
+      "an5161"
+    ],
+    "basis": "tradition_specific"
+  },
+  {
+    "id": "resentment-may-transition-to-compassion",
+    "from": "resentment",
+    "to": "compassion",
+    "type": "may_transition_to",
+    "description": "Concern for an annoying person’s suffering is described as a traditional practice association.",
+    "conditions": [
+      "In the contemplative context of AN 5.161."
+    ],
+    "counterexamples": [
+      "This is not a guaranteed sequence, demand, or instruction for an outside agent to induce."
+    ],
+    "source_ids": [
+      "an5161"
+    ],
+    "basis": "tradition_specific"
+  },
+  {
+    "id": "resentment-may-transition-to-equanimity",
+    "from": "resentment",
+    "to": "equanimity",
+    "type": "may_transition_to",
+    "description": "Balanced regard is described as a traditional practice association with less annoyance.",
+    "conditions": [
+      "In the contemplative context of AN 5.161."
+    ],
+    "counterexamples": [
+      "This is not a guaranteed sequence, demand, or instruction for an outside agent to induce."
+    ],
+    "source_ids": [
+      "an5161"
+    ],
+    "basis": "tradition_specific"
+  },
+  {
+    "id": "anger-may-transition-to-patience",
+    "from": "anger",
+    "to": "patience",
+    "type": "may_transition_to",
+    "description": "Cultivated patience is traditionally described in relation to meeting anger.",
+    "conditions": [
+      "In the ethical and contemplative context of Shantideva’s chapter on patience."
+    ],
+    "counterexamples": [
+      "Anger may persist; patience does not imply accepting abuse."
+    ],
+    "source_ids": [
+      "patience"
+    ],
+    "basis": "tradition_specific"
+  },
+  {
+    "id": "joy-may-cooccur-sadness",
+    "from": "joy",
+    "to": "sadness",
+    "type": "may_cooccur",
+    "description": "Pleasant and painful feelings can coexist.",
+    "conditions": [
+      "A meaningful ending is both welcome and a loss."
+    ],
+    "counterexamples": [
+      "Many events evoke only one of these states."
+    ],
+    "source_ids": [
+      "mixed2001"
+    ],
+    "basis": "empirical"
+  },
+  {
+    "id": "hope-may-cooccur-anxiety",
+    "from": "hope",
+    "to": "anxiety",
+    "type": "may_cooccur",
+    "description": "Desire for an outcome can coexist with apprehension.",
+    "conditions": [
+      "A valued result remains uncertain."
+    ],
+    "counterexamples": [
+      "Hope can be calm rather than anxious."
+    ],
+    "source_ids": [
+      "cowen2017",
+      "sleep2024"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "love-may-cooccur-anger",
+    "from": "love",
+    "to": "anger",
+    "type": "may_cooccur",
+    "description": "Care and anger can concern the same person.",
+    "conditions": [
+      "A loved person violates a boundary."
+    ],
+    "counterexamples": [
+      "Anger does not establish love or its absence."
+    ],
+    "source_ids": [
+      "bodily2014"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "grief-may-cooccur-relief",
+    "from": "grief",
+    "to": "relief",
+    "type": "may_cooccur",
+    "description": "Loss can coexist with release of a burden.",
+    "conditions": [
+      "A loss also ends strain or suffering."
+    ],
+    "counterexamples": [
+      "Many losses involve no relief."
+    ],
+    "source_ids": [
+      "bereavement",
+      "mixed2001"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "compassion-may-cooccur-equanimity",
+    "from": "compassion",
+    "to": "equanimity",
+    "type": "may_cooccur",
+    "description": "Concern can coexist with balanced attention.",
+    "conditions": [
+      "Suffering is met with steady care."
+    ],
+    "counterexamples": [
+      "Apparent composure can also reflect detachment."
+    ],
+    "source_ids": [
+      "four-immeasurables"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "sympathetic-joy-may-cooccur-envy",
+    "from": "sympathetic-joy",
+    "to": "envy",
+    "type": "may_cooccur",
+    "description": "Gladness for someone can coexist with painful comparison.",
+    "conditions": [
+      "A friend receives a desired opportunity."
+    ],
+    "counterexamples": [
+      "Either feeling may occur alone."
+    ],
+    "source_ids": [
+      "four-immeasurables",
+      "envy1993"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "pride-may-cooccur-shame",
+    "from": "pride",
+    "to": "shame",
+    "type": "may_cooccur",
+    "description": "Different evaluations can coexist.",
+    "conditions": [
+      "An achievement is connected with conduct the person regrets."
+    ],
+    "counterexamples": [
+      "The evaluations may instead alternate."
+    ],
+    "source_ids": [
+      "moral2007"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "gratitude-may-cooccur-sadness",
+    "from": "gratitude",
+    "to": "sadness",
+    "type": "may_cooccur",
+    "description": "Appreciation can coexist with sorrow.",
+    "conditions": [
+      "A kindness arrives during a difficult loss."
+    ],
+    "counterexamples": [
+      "Gratitude does not require sorrow."
+    ],
+    "source_ids": [
+      "gratitude2003",
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "acceptance-may-cooccur-anger",
+    "from": "acceptance",
+    "to": "anger",
+    "type": "may_cooccur",
+    "description": "Acknowledgment and protest can coexist.",
+    "conditions": [
+      "Reality is recognized while unfairness remains objectionable."
+    ],
+    "counterexamples": [
+      "Acceptance can occur without anger."
+    ],
+    "source_ids": [
+      "arrow",
+      "bodily2014"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "nostalgia-may-cooccur-loneliness",
+    "from": "nostalgia",
+    "to": "loneliness",
+    "type": "may_cooccur",
+    "description": "Remembered connection can accompany present disconnection.",
+    "conditions": [
+      "A cherished social world feels unavailable."
+    ],
+    "counterexamples": [
+      "Nostalgia can also strengthen present connection."
+    ],
+    "source_ids": [
+      "endings2021",
+      "bodily2014"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "curiosity-may-cooccur-fear",
+    "from": "curiosity",
+    "to": "fear",
+    "type": "may_cooccur",
+    "description": "Exploration and threat can coexist.",
+    "conditions": [
+      "An unfamiliar thing seems both interesting and risky."
+    ],
+    "counterexamples": [
+      "Fear may suppress exploration entirely."
+    ],
+    "source_ids": [
+      "cowen2017"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "boredom-may-cooccur-irritability",
+    "from": "boredom",
+    "to": "irritability",
+    "type": "may_cooccur",
+    "description": "Low engagement can coincide with annoyance.",
+    "conditions": [
+      "A repetitive task is difficult to leave."
+    ],
+    "counterexamples": [
+      "Boredom need not involve irritability."
+    ],
+    "source_ids": [
+      "boredom2018",
+      "sleep2024"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "sadness-component-of-grief",
+    "from": "sadness",
+    "to": "grief",
+    "type": "component_of",
+    "description": "Sadness is one possible constituent of the working description of grief.",
+    "conditions": [
+      "This instance contains the named constituent."
+    ],
+    "counterexamples": [
+      "Not every instance requires this constituent; this is not a fixed formula."
+    ],
+    "source_ids": [
+      "bereavement"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "love-component-of-grief",
+    "from": "love",
+    "to": "grief",
+    "type": "component_of",
+    "description": "Love is one possible constituent of the working description of grief.",
+    "conditions": [
+      "This instance contains the named constituent."
+    ],
+    "counterexamples": [
+      "Not every instance requires this constituent; this is not a fixed formula."
+    ],
+    "source_ids": [
+      "bereavement"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "fear-component-of-jealousy",
+    "from": "fear",
+    "to": "jealousy",
+    "type": "component_of",
+    "description": "Fear is one possible constituent of the working description of jealousy.",
+    "conditions": [
+      "This instance contains the named constituent."
+    ],
+    "counterexamples": [
+      "Not every instance requires this constituent; this is not a fixed formula."
+    ],
+    "source_ids": [
+      "envy1993"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "anger-component-of-jealousy",
+    "from": "anger",
+    "to": "jealousy",
+    "type": "component_of",
+    "description": "Anger is one possible constituent of the working description of jealousy.",
+    "conditions": [
+      "This instance contains the named constituent."
+    ],
+    "counterexamples": [
+      "Not every instance requires this constituent; this is not a fixed formula."
+    ],
+    "source_ids": [
+      "envy1993"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "love-component-of-nostalgia",
+    "from": "love",
+    "to": "nostalgia",
+    "type": "component_of",
+    "description": "Love is one possible constituent of the working description of nostalgia.",
+    "conditions": [
+      "This instance contains the named constituent."
+    ],
+    "counterexamples": [
+      "Not every instance requires this constituent; this is not a fixed formula."
+    ],
+    "source_ids": [
+      "endings2021"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "sadness-component-of-nostalgia",
+    "from": "sadness",
+    "to": "nostalgia",
+    "type": "component_of",
+    "description": "Sadness is one possible constituent of the working description of nostalgia.",
+    "conditions": [
+      "This instance contains the named constituent."
+    ],
+    "counterexamples": [
+      "Not every instance requires this constituent; this is not a fixed formula."
+    ],
+    "source_ids": [
+      "endings2021"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "joy-component-of-bittersweetness",
+    "from": "joy",
+    "to": "bittersweetness",
+    "type": "component_of",
+    "description": "Joy is one possible constituent of the working description of bittersweetness.",
+    "conditions": [
+      "This instance contains the named constituent."
+    ],
+    "counterexamples": [
+      "Not every instance requires this constituent; this is not a fixed formula."
+    ],
+    "source_ids": [
+      "mixed2001"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "sadness-component-of-bittersweetness",
+    "from": "sadness",
+    "to": "bittersweetness",
+    "type": "component_of",
+    "description": "Sadness is one possible constituent of the working description of bittersweetness.",
+    "conditions": [
+      "This instance contains the named constituent."
+    ],
+    "counterexamples": [
+      "Not every instance requires this constituent; this is not a fixed formula."
+    ],
+    "source_ids": [
+      "mixed2001"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "grief-component-of-grief-with-relief",
+    "from": "grief",
+    "to": "grief-with-relief",
+    "type": "component_of",
+    "description": "Grief is one possible constituent of the working description of grief with relief.",
+    "conditions": [
+      "This instance contains the named constituent."
+    ],
+    "counterexamples": [
+      "Not every instance requires this constituent; this is not a fixed formula."
+    ],
+    "source_ids": [
+      "mixed2001"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "relief-component-of-grief-with-relief",
+    "from": "relief",
+    "to": "grief-with-relief",
+    "type": "component_of",
+    "description": "Relief is one possible constituent of the working description of grief with relief.",
+    "conditions": [
+      "This instance contains the named constituent."
+    ],
+    "counterexamples": [
+      "Not every instance requires this constituent; this is not a fixed formula."
+    ],
+    "source_ids": [
+      "mixed2001"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "anxiety-component-of-anxious-excitement",
+    "from": "anxiety",
+    "to": "anxious-excitement",
+    "type": "component_of",
+    "description": "Anxiety is one possible constituent of the working description of anxious excitement.",
+    "conditions": [
+      "This instance contains the named constituent."
+    ],
+    "counterexamples": [
+      "Not every instance requires this constituent; this is not a fixed formula."
+    ],
+    "source_ids": [
+      "mixed2001"
+    ],
+    "basis": "editorial_synthesis"
+  },
+  {
+    "id": "excitement-component-of-anxious-excitement",
+    "from": "excitement",
+    "to": "anxious-excitement",
+    "type": "component_of",
+    "description": "Excitement is one possible constituent of the working description of anxious excitement.",
+    "conditions": [
+      "This instance contains the named constituent."
+    ],
+    "counterexamples": [
+      "Not every instance requires this constituent; this is not a fixed formula."
+    ],
+    "source_ids": [
+      "mixed2001"
+    ],
+    "basis": "editorial_synthesis"
+  }
+]
