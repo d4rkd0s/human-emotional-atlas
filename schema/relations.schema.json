@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://d4rkd0s.github.io/human-emotional-atlas/schema/relations.schema.json",
+  "title": "HEA relations",
+  "description": "Structural contract. Run scripts/validate.py for cross-file references, semantic duplicate edges, component cycles, and private-score exclusion.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+      },
+      "from": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+      },
+      "to": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+      },
+      "type": {
+        "enum": [
+          "neighbor",
+          "contrast",
+          "may_transition_to",
+          "may_cooccur",
+          "component_of"
+        ]
+      },
+      "description": {
+        "type": "string",
+        "minLength": 1
+      },
+      "conditions": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "counterexamples": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "source_ids": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+        },
+        "uniqueItems": true,
+        "minItems": 1
+      },
+      "basis": {
+        "enum": [
+          "empirical",
+          "tradition_specific",
+          "editorial_synthesis"
+        ]
+      }
+    },
+    "required": [
+      "id",
+      "from",
+      "to",
+      "type",
+      "description",
+      "conditions",
+      "counterexamples",
+      "source_ids",
+      "basis"
+    ]
+  }
+}

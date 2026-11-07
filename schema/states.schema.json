@@ -1,0 +1,176 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://d4rkd0s.github.io/human-emotional-atlas/schema/states.schema.json",
+  "title": "HEA states",
+  "description": "Structural contract. Run scripts/validate.py for cross-file references, semantic duplicate edges, component cycles, and private-score exclusion.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "kind": {
+        "enum": [
+          "emotion",
+          "mood",
+          "quality",
+          "mixed_state",
+          "mental_state"
+        ]
+      },
+      "definition": {
+        "type": "string",
+        "minLength": 1
+      },
+      "aliases": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "components": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+        },
+        "uniqueItems": true
+      },
+      "qualities": {
+        "type": "object",
+        "properties": {
+          "valence": {
+            "type": "string",
+            "minLength": 1
+          },
+          "arousal": {
+            "type": "string",
+            "minLength": 1
+          },
+          "intensity": {
+            "type": "string",
+            "minLength": 1
+          },
+          "time_course": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "valence",
+          "arousal",
+          "intensity",
+          "time_course"
+        ]
+      },
+      "body": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "thoughts": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "action_tendencies": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "needs": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "contexts": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "examples": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "text": {
+              "type": "string",
+              "minLength": 1
+            },
+            "possible_states": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+              },
+              "uniqueItems": true
+            },
+            "note": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "text",
+            "possible_states",
+            "note"
+          ]
+        }
+      },
+      "source_ids": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+        },
+        "uniqueItems": true,
+        "minItems": 1
+      },
+      "notes": {
+        "type": "string",
+        "minLength": 1
+      },
+      "basis": {
+        "enum": [
+          "empirical",
+          "tradition_specific",
+          "editorial_synthesis"
+        ]
+      }
+    },
+    "required": [
+      "id",
+      "name",
+      "kind",
+      "definition",
+      "aliases",
+      "components",
+      "qualities",
+      "body",
+      "thoughts",
+      "action_tendencies",
+      "needs",
+      "contexts",
+      "examples",
+      "source_ids",
+      "notes"
+    ]
+  }
+}

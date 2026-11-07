@@ -1,0 +1,12 @@
+# Human Emotional Atlas
+
+HEA is a CC0 descriptive emotional reference dataset. It is not an inference engine or behavioral policy.
+
+Repository: https://github.com/d4rkd0s/human-emotional-atlas
+Read: README.md and docs/DATA_MODEL.md
+Canonical data: data/states.json, data/relations.json, data/sources.json
+Built website data: data/manifest.json, data/atlas.json
+Building this repository: AGENTS.md
+Progress and release status: MILESTONES.md
+
+Use files from one revision. Follow source scope, conditions, counterexamples, and alternative interpretations. Unmerged PR data is provisional. Empty main data is intentional until maintainer review. Consumers make their own determinations.

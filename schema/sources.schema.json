@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://d4rkd0s.github.io/human-emotional-atlas/schema/sources.schema.json",
+  "title": "HEA sources",
+  "description": "Structural contract. Run scripts/validate.py for cross-file references, semantic duplicate edges, component cycles, and private-score exclusion.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z][a-z0-9]*(?:-[a-z0-9]+)*$"
+      },
+      "title": {
+        "type": "string",
+        "minLength": 1
+      },
+      "url": {
+        "type": "string",
+        "format": "uri",
+        "pattern": "^https://"
+      },
+      "tradition": {
+        "type": "string",
+        "minLength": 1
+      },
+      "scope": {
+        "type": "string",
+        "minLength": 1
+      },
+      "limitations": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "required": [
+      "id",
+      "title",
+      "url",
+      "tradition",
+      "scope",
+      "limitations"
+    ]
+  }
+}

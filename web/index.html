@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="An open atlas of human emotions, their qualities, relationships, and possible transitions. A public reference for humans and AI.">
+<meta name="theme-color" content="#f5f3ec"><title>HEA · Human Emotional Atlas</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css">
+<script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#explorer">Skip to atlas</a>
+<header class="masthead"><a class="brand" href="./" aria-label="HEA home"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2v28M2 16h28M6 6l20 20M6 26L26 6"/><circle cx="16" cy="16" r="10"/></svg><span>HEA</span></a><span class="mast-title">Human Emotional Atlas</span><nav aria-label="Main navigation"><a href="#explorer">Explore</a><a href="#use">Use with AI</a><a href="https://github.com/d4rkd0s/human-emotional-atlas">GitHub <span aria-hidden="true">↗</span></a></nav></header>
+<main>
+<section class="intro"><div><h1>A world of feeling.<br><em>Worth understanding.</em></h1><p>An open reference to the textures, connections, and changing states of human emotion.</p></div><div class="intro-aside"><div class="spectrum" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><p>For people.<br>For agents.<br>For a little more understanding.</p><a href="#use" class="text-link">Bring the atlas to your AI <span aria-hidden="true">↓</span></a></div></section>
+<section id="explorer" class="explorer" aria-labelledby="explore-title">
+<div class="section-top"><h2 id="explore-title">Explore the atlas</h2><span id="counts" class="count" aria-live="polite">Loading the collection…</span></div>
+<div class="toolbar"><label class="search-label"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><span class="sr-only">Search emotional states</span><input id="search" type="search" placeholder="Find a feeling, quality, or state…" autocomplete="off"></label><label class="filter-label"><span class="sr-only">Filter by type</span><select id="kind"><option value="">All types</option><option value="emotion">Emotions</option><option value="mood">Moods</option><option value="quality">Qualities</option><option value="mixed_state">Mixed states</option><option value="mental_state">Mental states</option></select></label></div>
+<div id="notice" class="notice" role="status">Opening the atlas…</div>
+<div class="workspace" id="workspace" hidden><aside class="index-pane" aria-label="Emotional state index"><div class="index-top"><span>STATE INDEX</span><span id="match-count"></span></div><div id="state-list" class="state-list"></div><p class="index-note">Colors are a wayfinding palette, not a psychological measurement.</p></aside><article class="detail-pane" id="detail" aria-live="polite"></article></div>
+</section>
+<section id="use" class="use-section" aria-labelledby="use-title"><div><h2 id="use-title">A common reference.<br>Room for your own reading.</h2><p>Give an AI the atlas as reference material. The data describes emotional possibilities and relationships; interpretation belongs to its reader.</p><a href="data/atlas.json" download class="text-link">Download the full dataset <span aria-hidden="true">↗</span></a></div><div class="prompt-box"><div class="prompt-top"><span>START WITH THIS PROMPT</span><button id="copy-prompt" type="button">Copy prompt</button></div><pre id="prompt-text">Use the Human Emotional Atlas (HEA) as a reference dataset:
+https://github.com/d4rkd0s/human-emotional-atlas
+
+Read README.md and docs/DATA_MODEL.md, then data/states.json, data/relations.json, and data/sources.json from the same commit on main. Record the revision used. Use the published schema to understand fields, relation types, source context, and limitations. If web access is unavailable, ask me to attach the dataset. Make your own determinations from the data and the context available to you.</pre><span id="copy-status" class="sr-only" role="status"></span></div></section>
+<section class="about"><h2>Many perspectives.<br>One open collection.</h2><p>HEA brings together scientific research, contemplative traditions, and carefully identified editorial synthesis. Connections describe possibilities in context. A contrast is not necessarily a remedy; a phrase can have more than one emotional meaning.</p><a href="https://github.com/d4rkd0s/human-emotional-atlas/blob/main/CONTRIBUTING.md" class="text-link">Help the atlas grow <span aria-hidden="true">↗</span></a></section>
+</main><footer><span>HEA · Human Emotional Atlas</span><span>Open knowledge · CC0</span><a href="https://github.com/d4rkd0s/human-emotional-atlas">Source & documentation</a></footer>
+</body></html>
