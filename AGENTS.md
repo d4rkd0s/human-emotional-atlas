@@ -16,11 +16,11 @@ HEA is a descriptive reference dataset, not an inference service or a behavioral
 - Public Git repository, CC0-1.0, simple to use with AI, plus a sleek GitHub Pages website with search, a relationship map, and a visible copy-paste data-access prompt.
 - Use a red/orange/yellow/green/blue/indigo/violet palette as aesthetic inspiration only. Do not mention chakras in the product UI or imply colors are scientific measurements.
 - Keep it simple: no runtime API, account system, paid service, or unnecessary dependencies. Build in milestones and track them in the repository.
-- Maintainer review governs data loads and changes through PRs. Other changes may go directly to main. Preserve this distinction even when working autonomously.
+- Current maintainer directive (2026-11-08): keep authorized ongoing work on main with no new PRs. This supersedes the earlier mandatory data-PR workflow; preserve validation, source checking, and transparent change summaries.
 
 ## Change boundaries
 - Code, schema, documentation, and website infrastructure may go directly to main.
-- All additions or changes to emotional data and source catalogs go through a pull request reviewed by @d4rkd0s. Never merge a data PR on the maintainer's behalf.
+- Maintainer-authorized data and source changes may go directly to main after checks. Do not create PRs for the current work. External contributions still use PRs; no blanket authorization to merge unrelated outside contributions.
 - Use focused parallel agents for research, drafting, and independent review. Assign disjoint files; integrate through one owner.
 - Update MILESTONES.md when evidence supports a status change. Do not mark research complete merely because files exist.
 
@@ -35,4 +35,4 @@ HEA is a descriptive reference dataset, not an inference service or a behavioral
 - No exhaustive-completeness claim, universal emotional diagnosis, or deterministic antidote claim.
 
 ## Validation
-Run `python3 -m unittest discover -s tests -v`, `python3 scripts/validate.py`, and `python3 scripts/build.py` before delivery. Verify affected website behavior and small-screen layout. Data PRs must summarize counts, sources, naming decisions, and unresolved limits.
+Run `python3 -m unittest discover -s tests -v`, `python3 scripts/validate.py`, and `python3 scripts/build.py` before delivery. Verify affected website behavior and small-screen layout. Data change summaries must include counts, sources, naming decisions, and unresolved limits, whether delivered as commits or external PRs.

@@ -1,72 +1,76 @@
 # HEA milestones
 
-This is the canonical progress tracker. Completion means the criteria below are evidenced, not merely that an agent produced files. Human data review remains with @d4rkd0s.
+Updated 2026-11-08. This is the canonical progress tracker. The maintainer merged foundation PR #2 and has authorized ongoing work directly on main, without new PRs. Validation and source review still apply.
 
-| Marker | Milestone | Status | Completion evidence |
+| Marker | Milestone | Status | Evidence / remaining work |
 | --- | --- | --- | --- |
-| M0 | Definition and governance | Complete | README, AGENTS, CLAUDE, contribution rules, CC0 |
-| M1 | Data contract and build | Complete | Schema, validator, deterministic bundle, integrity tests |
-| M2 | Foundational dataset | Awaiting maintainer review in PR #2 | Sourced states and relationships, naming review, maintainer merge |
-| M3 | Coverage expansion | Ongoing after foundation | Additional reviewed batches and explicit coverage gaps |
-| M4 | Search and relationship explorer | Implemented; browser checks in progress | Search, detail, map, sources, prompt, mobile and empty-state checks |
-| M5 | Public release | Pending | Green checks, Pages deployed, foundation data reviewed and merged |
+| M0 | Definition and governance | Complete | README, AGENTS, CLAUDE, contribution rules, CC0; current direct-to-main directive recorded |
+| M1 | Data contract and build | Complete | Schemas, reference validator, deterministic bundle, 10 integrity/build tests |
+| M2 | Foundational dataset | Complete | Maintainer merged PR #2; 49 states and 109 relationships on main |
+| M3.1 | First enrichment batch | Complete | 15 states enriched; four targeted primary studies added; 20 total sources |
+| M3.2 | Broader coverage and evidence depth | Ongoing | Remaining qualitative fields, source-to-claim detail, cultural variation, additional states |
+| M4 | Initial explorer | Complete | Search, filter, state detail, sources, map/list, copy prompt, download; browser smoke checks |
+| M5 | Hosted release | Blocked on Pages setting | Code/data available publicly; site build passes; Pages must be enabled by owner |
 
 ## M0 · Definition
-- [x] Establish descriptive purpose and scope without an inference engine.
+- [x] Establish descriptive purpose without an inference engine or behavioral policy.
 - [x] Capture interview decisions in AGENTS.md, with CLAUDE.md pointing to it.
 - [x] Set English-first, CC0, broad source eligibility, and contextual provenance.
-- [x] Separate direct-to-main infrastructure from reviewed data PRs.
+- [x] Record the latest maintainer instruction: no new PRs for authorized ongoing work.
 
 ## M1 · Structure
-- [x] Define stable state, source, and relationship IDs.
-- [x] Describe multiple contrasts, mixtures, and contextual directional transitions.
-- [x] Implement reference, shape, duplicate, and private-score checks.
-- [x] Generate a reproducible manifest and bundled atlas.
-- [x] Confirm checks against the foundational draft and empty-main state.
+- [x] Stable state, source, and relationship IDs.
+- [x] Multiple contrasts, mixtures, and contextual directional transitions.
+- [x] Reference, shape, duplicate, component-cycle, and private-score checks.
+- [x] Reproducible manifest and bundled atlas.
+- [x] Validate populated and empty datasets.
 
 ## M2 · Foundation
-- [x] Draft foundational, difficult, mixed, and contemplative states.
-- [x] Review names and source scope; distinguish editorial synthesis.
-- [x] Validate relationships and address independent review findings.
-- [x] Open [data PR #2](https://github.com/d4rkd0s/human-emotional-atlas/pull/2) with counts and limitations.
-- [ ] Maintainer reviews and merges the data PR.
+- [x] Foundational, difficult, mixed, and contemplative states.
+- [x] Review names, source scope, and evidence classification.
+- [x] Address independent review findings.
+- [x] Maintainer merged [d4rkd0s/human-emotional-atlas #2 — Review foundational atlas](https://github.com/d4rkd0s/human-emotional-atlas/pull/2).
 
-## M3 · Expansion
-- [ ] Track gaps across social emotions, bodily/mental influences, time courses, and traditions.
-- [ ] Expand in reviewable batches, normally 10–20 entries where practical.
-- [ ] Resolve proposals through source checking, revision, classification, or explicit deferral.
-- [ ] Revisit uncertain names and relationships as stronger evidence becomes available.
+## M3 · Evidence and coverage
+- [x] Identify generic fields and weak source fit in the foundation.
+- [x] Enrich intensity/time course for joy, sadness, grief, fear, anxiety, anger, frustration, shame, guilt, relief, loneliness, hatred, envy, compassion, and equanimity.
+- [x] Add targeted primary studies for loneliness, relief, and hatred; replace mismatched conceptual anchors.
+- [x] Preserve qualitative/editorial labels and study limitations; do not manufacture probabilities.
+- [ ] Enrich the remaining 34 states' generic intensity/time-course fields.
+- [ ] Improve claim-level provenance for body cues, needs, and proposed transitions.
+- [ ] Expand cultural and neurodivergent perspectives without treating any group as uniform.
+- [ ] Add additional states and mixtures after naming and source checks.
+- [ ] Continue revisiting disputed or weakly supported relationships.
 
-No milestone asserts exhaustive coverage of every possible human state. Expansion is continuing work.
+M3 is continuing research, not a promise to enumerate every possible human state. A merged entry is not a claim of scientific certainty.
 
-## M4 · Explorer
-- [x] Search/filter states and inspect full descriptions and sources.
-- [x] Navigate relationships visually with an accessible list alternative.
-- [x] Provide visible copy-paste AI instructions and dataset download.
-- [ ] Check mobile layout, keyboard paths, empty state, and load failures.
+## M4 · Initial explorer
+- [x] Search/filter states and inspect descriptions, examples, and sources.
+- [x] Navigate a selected state's relationships visually and through a full list.
+- [x] Visible copy-paste AI prompt and generated JSON download.
+- [x] Desktop and 390px narrow-frame layout inspected.
+- [x] Populated and empty-state rendering checked.
+- [x] Keyboard activation of graph nodes and map visibility control checked.
+- [x] Mixed-state filter checked.
+- [x] Missing-data response checked by temporarily withholding a generated JSON file; error message rendered and data returned after restoration/live reload.
 
-## M5 · Release
-- [x] Infrastructure committed to main; GitHub Validate atlas workflow passed.
-- [ ] Enable GitHub Pages and verify successful publication.
-- [x] Keep unmerged data out of main and its deployment build.
-- [ ] Merge foundation only after maintainer review; verify populated release.
+These are bounded smoke checks, not a comprehensive accessibility certification or device matrix. The retry button's isolated click path was not verified because preview live reload restored the page first.
 
-## Coverage backlog
+## M5 · Hosted release
+- [x] Public repository, CC0 license, merged foundation, documentation, and successful validation workflow.
+- [x] Static site builds with populated data.
+- [ ] Owner enables Settings → Pages → Source → GitHub Actions.
+- [ ] Rerun Publish atlas explorer and verify public deployment.
 
-After the foundation, prioritize evidence depth before a raw entry count: richer source-to-claim mapping, cultural comparisons, neurodivergent experiences, social and relational contexts, chronic versus momentary experiences, additional named mixtures, and contradictory transition conditions. Future languages remain possible, but English is the current scope.
+The connector cannot change Pages settings, and the cloud browser is not signed into the owner's account. This blocks hosting only. Continue data and code work on main.
 
-## Tracking and verification
+## Verification and history
 
-Tracking issue: [#1](https://github.com/d4rkd0s/human-emotional-atlas/issues/1). Local checks: 10 integrity/build tests pass; foundational draft validates with 49 states, 109 relationships, and 16 sources. These counts describe proposed data, not reviewed content on main. Desktop and 390px narrow-frame preview checked; search and prompt copying verified.
+Tracking issue: [d4rkd0s/human-emotional-atlas #1 — HEA milestones](https://github.com/d4rkd0s/human-emotional-atlas/issues/1).
 
-Pages deployment needs the repository owner to select GitHub Actions in Settings → Pages. The connected tooling cannot change that setting, and the browser is not signed in.
+- Foundation: 49 states, 109 relationships, originally 16 sources; merged by maintainer on 2026-11-06 (America/Chicago).
+- Enrichment 001: same state/relationship counts, 20 sources, 15 enriched entries.
+- Ten integrity/build tests and validator pass locally. Foundation GitHub validation passed.
+- Pages tests/build passed; configure-pages failed because the site is not enabled.
 
-Initial data limitation: intensity and time-course fields currently state general variability rather than entry-specific evidence. Enrich these fields in future reviewed batches. Loneliness, relief, and hatred identify source-fit limits explicitly. The anxiety/fear empirical edge describes semantic proximity, not temporal causation.
-
-## Release checkpoint · 2026-11-06
-
-- Infrastructure commit: `b0ce60e0e47b939557232fcc9383c843a395080d`.
-- GitHub validation passed: https://github.com/d4rkd0s/human-emotional-atlas/actions/runs/42334257301
-- Proposed data: [d4rkd0s/human-emotional-atlas #2 — Review foundational atlas](https://github.com/d4rkd0s/human-emotional-atlas/pull/2), intentionally unmerged.
-- Pages build and tests passed; deployment stopped at configure-pages because Pages is not enabled. Select Settings → Pages → GitHub Actions, then rerun Publish atlas explorer. No administrative credentials are committed.
-- Browser checks completed: desktop/narrow-frame render, populated and empty states, search, prompt copy. Full keyboard navigation and simulated network-failure checks remain pending.
+Earlier references to awaiting PR #2 review or empty main data are superseded by this tracker.

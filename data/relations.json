@@ -203,7 +203,7 @@
     ],
     "source_ids": [
       "bodily2014",
-      "an5161"
+      "hate2022"
     ],
     "basis": "editorial_synthesis"
   },
@@ -591,8 +591,9 @@
       "Relief can be excited or short-lived."
     ],
     "source_ids": [
-      "mixed2001",
-      "cowen2017"
+      "cowen2017",
+      "relief2011",
+      "relief2013"
     ],
     "basis": "editorial_synthesis"
   },
@@ -716,7 +717,7 @@
     ],
     "source_ids": [
       "four-immeasurables",
-      "an5161"
+      "hate2022"
     ],
     "basis": "editorial_synthesis"
   },
@@ -823,8 +824,9 @@
       "Relief about one danger can coexist with fear about another."
     ],
     "source_ids": [
-      "mixed2001",
-      "cowen2017"
+      "cowen2017",
+      "relief2011",
+      "relief2013"
     ],
     "basis": "editorial_synthesis"
   },
@@ -877,7 +879,8 @@
     ],
     "source_ids": [
       "cowen2017",
-      "mixed2001"
+      "relief2011",
+      "relief2013"
     ],
     "basis": "editorial_synthesis"
   },
@@ -896,7 +899,8 @@
     "source_ids": [
       "cowen2017",
       "sleep2024",
-      "mixed2001"
+      "relief2011",
+      "relief2013"
     ],
     "basis": "editorial_synthesis"
   },
@@ -968,7 +972,8 @@
     ],
     "source_ids": [
       "cowen2017",
-      "mixed2001"
+      "relief2011",
+      "relief2013"
     ],
     "basis": "editorial_synthesis"
   },
@@ -1057,7 +1062,8 @@
     ],
     "source_ids": [
       "moral2007",
-      "mixed2001"
+      "relief2011",
+      "relief2013"
     ],
     "basis": "editorial_synthesis"
   },
@@ -1160,8 +1166,9 @@
       "Unwanted or superficial contact may deepen loneliness."
     ],
     "source_ids": [
-      "bodily2014",
-      "mixed2001"
+      "loneliness2021",
+      "relief2011",
+      "relief2013"
     ],
     "basis": "editorial_synthesis"
   },
@@ -1267,7 +1274,8 @@
     ],
     "source_ids": [
       "sleep2024",
-      "mixed2001"
+      "relief2011",
+      "relief2013"
     ],
     "basis": "editorial_synthesis"
   },
@@ -1355,8 +1363,9 @@
       "Relief can be accepted without guilt."
     ],
     "source_ids": [
-      "mixed2001",
-      "moral2007"
+      "moral2007",
+      "relief2011",
+      "relief2013"
     ],
     "basis": "editorial_synthesis"
   },
@@ -1566,7 +1575,9 @@
     ],
     "source_ids": [
       "bereavement",
-      "mixed2001"
+      "mixed2001",
+      "relief2011",
+      "relief2013"
     ],
     "basis": "editorial_synthesis"
   },
@@ -1672,7 +1683,7 @@
     ],
     "source_ids": [
       "endings2021",
-      "bodily2014"
+      "loneliness2021"
     ],
     "basis": "editorial_synthesis"
   },
@@ -1877,7 +1888,8 @@
       "Not every instance requires this constituent; this is not a fixed formula."
     ],
     "source_ids": [
-      "mixed2001"
+      "relief2011",
+      "relief2013"
     ],
     "basis": "editorial_synthesis"
   },

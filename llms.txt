@@ -9,4 +9,4 @@ Built website data: data/manifest.json, data/atlas.json
 Building this repository: AGENTS.md
 Progress and release status: MILESTONES.md
 
-Use files from one revision. Follow source scope, conditions, counterexamples, and alternative interpretations. Unmerged PR data is provisional. Empty main data is intentional until maintainer review. Consumers make their own determinations.
+Use files from one revision. Follow source scope, conditions, counterexamples, and alternative interpretations. Unmerged PR data is provisional. The foundation is merged on main. Consumers make their own determinations.

@@ -126,5 +126,37 @@
     "tradition": "Psychological research",
     "scope": "Relationship between boredom, frustration, and task autonomy.",
     "limitations": "Findings are conditional on studied tasks; boredom and frustration are neither equivalent nor an inevitable sequence."
+  },
+  {
+    "id": "loneliness2021",
+    "title": "Arnold, Kappes, Klinenberg & Winkielman (2021), The Role of Comparisons in Judgments of Loneliness",
+    "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2021.498305/full",
+    "tradition": "Experimental and observational psychology",
+    "scope": "Direct conceptual anchor for loneliness as perceived insufficiency of social connection. Experiments, survey data, and interviews examine social and temporal comparisons.",
+    "limitations": "Studies concern selected United States and British samples and comparison tasks. They do not establish a universal intensity scale, duration, bodily cue, or individual response to contact. HEA transition examples remain editorial."
+  },
+  {
+    "id": "relief2011",
+    "title": "Leknes et al. (2011), Relief as a reward: hedonic and neural responses to safety from pain",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21490964/",
+    "tradition": "Experimental affective neuroscience",
+    "scope": "Direct evidence for pleasant relief when expected pain is avoided, and for the relevance of negative expectations.",
+    "limitations": "A small healthy-volunteer laboratory pain study. Generalization to social, financial, or bereavement contexts is editorial; brain measures do not identify an individual’s emotion from language."
+  },
+  {
+    "id": "relief2013",
+    "title": "Franklin, Lee, Hanna & Prinstein (2013), Feeling worse to feel better: pain-offset relief simultaneously stimulates positive affect and reduces negative affect",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23459871/",
+    "tradition": "Experimental affective psychology",
+    "scope": "Laboratory evidence concerning relief after pain ends, distinguishing positive affect from reduction of negative affect.",
+    "limitations": "Pain-offset results do not establish that all forms of relief are calm, have a fixed duration, or replace all other feelings. Everyday examples and relationships in HEA are editorial extensions."
+  },
+  {
+    "id": "hate2022",
+    "title": "Martínez, van Prooijen & Van Lange (2022), Hate: Toward understanding its distinctive features across interpersonal and intergroup targets",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34968144/",
+    "tradition": "Preregistered psychological studies",
+    "scope": "Compares reported hate with dislike, anger, contempt, and disgust, including perceived threat, arousal, and action tendencies toward interpersonal and intergroup targets.",
+    "limitations": "United States adult self-reports about targets; group comparisons do not establish a universal definition or prove an individual’s intent. Reported attack-oriented tendencies are not equivalent to enacted violence. Object-directed hatred in HEA remains an editorial extension."
   }
 ]

@@ -11,8 +11,8 @@
     "qualities": {
       "valence": "pleasant",
       "arousal": "variable",
-      "intensity": "Variable; the label does not fix strength.",
-      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+      "intensity": "Can range from gentle gladness to exuberant delight; outward animation does not measure felt joy.",
+      "time_course": "May arise with a welcome event, continue while it is savored, or return in recollection; its fading need not imply dissatisfaction."
     },
     "body": [
       "A light or energized feeling"
@@ -44,7 +44,7 @@
       "cowen2017"
     ],
     "basis": "editorial_synthesis",
-    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies."
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies. Intensity and time-course descriptions are qualitative editorial characterizations, not measured ranges or predicted trajectories."
   },
   {
     "id": "amusement",
@@ -238,8 +238,8 @@
     "qualities": {
       "valence": "unpleasant",
       "arousal": "low_to_moderate",
-      "intensity": "Variable; the label does not fix strength.",
-      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+      "intensity": "Can range from a subdued ache to consuming sorrow; tearfulness and intensity need not track each other.",
+      "time_course": "May come in episodes or remain as a background feeling while a loss or absence stays meaningful; there is no required progression to another state."
     },
     "body": [
       "Heaviness or tears may occur"
@@ -271,7 +271,7 @@
       "cowen2017"
     ],
     "basis": "editorial_synthesis",
-    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies."
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies. Intensity and time-course descriptions are qualitative editorial characterizations, not measured ranges or predicted trajectories."
   },
   {
     "id": "grief",
@@ -286,8 +286,8 @@
     "qualities": {
       "valence": "mixed",
       "arousal": "variable",
-      "intensity": "Variable; the label does not fix strength.",
-      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+      "intensity": "Can alternate between intense yearning or distress and quieter moments, including pleasure or little felt emotion.",
+      "time_course": "May recur around reminders and life changes. Different feelings can overlap or alternate without following fixed stages or a required timetable."
     },
     "body": [
       "Waves of heaviness or agitation"
@@ -319,7 +319,7 @@
       "bereavement"
     ],
     "basis": "editorial_synthesis",
-    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies. Components are possible constituent experiences, not necessary ingredients or a universal equation. Grief has no required sequence of stages or required endpoint."
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies. Components are possible constituent experiences, not necessary ingredients or a universal equation. Grief has no required sequence of stages or required endpoint. Intensity and time-course descriptions are qualitative editorial characterizations, not measured ranges or predicted trajectories."
   },
   {
     "id": "fear",
@@ -333,8 +333,8 @@
     "qualities": {
       "valence": "unpleasant",
       "arousal": "high",
-      "intensity": "Variable; the label does not fix strength.",
-      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+      "intensity": "Can involve a manageable sense of danger or an overwhelming urge to protect oneself; freezing or quietness does not indicate weak fear.",
+      "time_course": "May rise when danger seems imminent and ease when safety feels credible; reminders and uncertainty can renew it after an event."
     },
     "body": [
       "Tension or rapid heartbeat may occur"
@@ -366,7 +366,7 @@
       "cowen2017"
     ],
     "basis": "editorial_synthesis",
-    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies."
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies. Intensity and time-course descriptions are qualitative editorial characterizations, not measured ranges or predicted trajectories."
   },
   {
     "id": "anxiety",
@@ -378,8 +378,8 @@
     "qualities": {
       "valence": "unpleasant",
       "arousal": "moderate_to_high",
-      "intensity": "Variable; the label does not fix strength.",
-      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+      "intensity": "Can range from background unease to attention-dominating apprehension; physical activation and reported distress may differ.",
+      "time_course": "Can build in anticipation, fluctuate with uncertainty, or remain after an outcome is known; repeated checking does not necessarily settle it."
     },
     "body": [
       "Restlessness or stomach discomfort"
@@ -412,7 +412,7 @@
       "sleep2024"
     ],
     "basis": "editorial_synthesis",
-    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies."
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies. Intensity and time-course descriptions are qualitative editorial characterizations, not measured ranges or predicted trajectories."
   },
   {
     "id": "anger",
@@ -424,8 +424,8 @@
     "qualities": {
       "valence": "unpleasant_or_mixed",
       "arousal": "moderate_to_high",
-      "intensity": "Variable; the label does not fix strength.",
-      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+      "intensity": "Can range from irritation to intense rage; controlled expression does not establish mild feeling or its absence.",
+      "time_course": "May flare around an offense, recur when it is remembered, or linger while the perceived wrong remains unresolved; it need not become aggression."
     },
     "body": [
       "Heat or muscular tension"
@@ -457,7 +457,7 @@
       "bodily2014"
     ],
     "basis": "editorial_synthesis",
-    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies."
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies. Intensity and time-course descriptions are qualitative editorial characterizations, not measured ranges or predicted trajectories."
   },
   {
     "id": "frustration",
@@ -469,8 +469,8 @@
     "qualities": {
       "valence": "unpleasant",
       "arousal": "moderate_to_high",
-      "intensity": "Variable; the label does not fix strength.",
-      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+      "intensity": "Can range from a minor impediment to a strong sense of blocked agency; the importance of the goal matters to the experience.",
+      "time_course": "May accumulate during repeated obstruction or ease when progress resumes; restarting a task can reactivate it."
     },
     "body": [
       "Tense movement or sighing"
@@ -502,7 +502,7 @@
       "cowen2017"
     ],
     "basis": "editorial_synthesis",
-    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies."
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies. Intensity and time-course descriptions are qualitative editorial characterizations, not measured ranges or predicted trajectories."
   },
   {
     "id": "resentment",
@@ -559,8 +559,8 @@
     "qualities": {
       "valence": "unpleasant_or_mixed",
       "arousal": "variable",
-      "intensity": "Variable; the label does not fix strength.",
-      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+      "intensity": "Can involve strong rejection and attack-oriented urges; felt intensity, bodily arousal, and actual conduct must be distinguished.",
+      "time_course": "Can appear as an acute emotional episode or a recurring orientation toward a target; the label alone does not establish duration or permanence."
     },
     "body": [
       "Tension or a cold sense of resolve"
@@ -569,7 +569,8 @@
       "I want nothing to do with them."
     ],
     "action_tendencies": [
-      "Reject, distance, or oppose"
+      "Reject, distance, or oppose",
+      "Attack-oriented urges may occur; urges do not establish intent or action"
     ],
     "needs": [
       "Safety or protection of values may be perceived needs"
@@ -589,10 +590,10 @@
       }
     ],
     "source_ids": [
-      "an5161"
+      "hate2022"
     ],
     "basis": "editorial_synthesis",
-    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies. AN 5.161 addresses annoyance and traditional cultivation practices, not a modern operational definition of hatred. This broader working definition is editorial."
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies. The source directly compares interpersonal and intergroup hate with neighboring emotions. It does not validate hatred toward every possible object or infer actual harmful intent. Intensity and time-course descriptions are qualitative editorial characterizations, not measured ranges or predicted trajectories."
   },
   {
     "id": "irritability",
@@ -784,8 +785,8 @@
     "qualities": {
       "valence": "unpleasant",
       "arousal": "variable",
-      "intensity": "Variable; the label does not fix strength.",
-      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+      "intensity": "Can range from self-conscious inadequacy to a powerful wish to hide; visible composure can coexist with painful self-evaluation.",
+      "time_course": "May arise during exposure or later recollection and return with anticipated judgment; absence of an actual audience does not rule it out."
     },
     "body": [
       "A wish to shrink or hide"
@@ -817,7 +818,7 @@
       "moral2007"
     ],
     "basis": "editorial_synthesis",
-    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies."
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies. Intensity and time-course descriptions are qualitative editorial characterizations, not measured ranges or predicted trajectories."
   },
   {
     "id": "guilt",
@@ -829,8 +830,8 @@
     "qualities": {
       "valence": "unpleasant",
       "arousal": "moderate",
-      "intensity": "Variable; the label does not fix strength.",
-      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+      "intensity": "Can range from a small pang to consuming distress about perceived responsibility; intensity alone does not establish actual wrongdoing.",
+      "time_course": "May emerge after reflection, recur while consequences remain salient, or ease with a repair judged meaningful; repair does not guarantee an immediate change."
     },
     "body": [
       "Tension or heaviness"
@@ -862,7 +863,7 @@
       "moral2007"
     ],
     "basis": "editorial_synthesis",
-    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies."
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies. Intensity and time-course descriptions are qualitative editorial characterizations, not measured ranges or predicted trajectories."
   },
   {
     "id": "embarrassment",
@@ -1098,9 +1099,9 @@
     "components": [],
     "qualities": {
       "valence": "pleasant_or_mixed",
-      "arousal": "falling",
-      "intensity": "Variable; the label does not fix strength.",
-      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+      "arousal": "variable; tension may fall while activation remains",
+      "intensity": "Can range from a small easing to a strong positive response when a feared outcome is avoided or an unpleasant experience ends.",
+      "time_course": "May arise when a burden stops or expected harm fails to occur; residual arousal or concern about other threats can remain."
     },
     "body": [
       "Exhaling or releasing tension"
@@ -1129,10 +1130,11 @@
       }
     ],
     "source_ids": [
-      "mixed2001"
+      "relief2011",
+      "relief2013"
     ],
     "basis": "editorial_synthesis",
-    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies. The mixed-emotions source supports coexistence in general, not this relief definition. Entry-specific source enrichment is pending."
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies. Sources directly examine relief from avoided or ended pain. Broader burdens and social transitions are editorial extensions; relief need not erase other feelings. Intensity and time-course descriptions are qualitative editorial characterizations, not measured ranges or predicted trajectories."
   },
   {
     "id": "loneliness",
@@ -1144,8 +1146,8 @@
     "qualities": {
       "valence": "unpleasant",
       "arousal": "variable",
-      "intensity": "Variable; the label does not fix strength.",
-      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+      "intensity": "Can range from a background sense of missing connection to acute distress; the number of nearby people does not measure its strength.",
+      "time_course": "May be situational, recurrent, or persistent, and can fluctuate with how present relationships compare with desired connection or remembered contact."
     },
     "body": [
       "An aching or empty feeling"
@@ -1174,10 +1176,10 @@
       }
     ],
     "source_ids": [
-      "bodily2014"
+      "loneliness2021"
     ],
     "basis": "editorial_synthesis",
-    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies. The bodily-maps source provides general bodily-experience context, not direct support for this loneliness definition. Entry-specific source enrichment is pending."
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies. The source directly addresses perceived connection and comparison; it does not establish bodily signs or a guaranteed response to more contact. Intensity and time-course descriptions are qualitative editorial characterizations, not measured ranges or predicted trajectories."
   },
   {
     "id": "love",
@@ -1236,8 +1238,8 @@
     "qualities": {
       "valence": "mixed",
       "arousal": "variable",
-      "intensity": "Variable; the label does not fix strength.",
-      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+      "intensity": "Can be quiet concern or a strong wish to alleviate suffering; being overwhelmed by another’s pain is not required.",
+      "time_course": "May arise in response to suffering, persist as a caring orientation, or be renewed through attention and practice; fatigue and competing demands can alter its expression."
     },
     "body": [
       "Tenderness or a felt ache"
@@ -1269,7 +1271,7 @@
       "four-immeasurables"
     ],
     "basis": "editorial_synthesis",
-    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies."
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies. Intensity and time-course descriptions are qualitative editorial characterizations, not measured ranges or predicted trajectories."
   },
   {
     "id": "loving-kindness",
@@ -1381,8 +1383,8 @@
     "qualities": {
       "valence": "neutral_or_mixed",
       "arousal": "variable",
-      "intensity": "Variable; the label does not fix strength.",
-      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+      "intensity": "Concerns balance in relating to experience, rather than the absence or weakness of emotion; strong feelings and bodily activation can remain.",
+      "time_course": "May be momentary or cultivated over repeated practice, with steadiness varying across situations; one composed episode does not establish a lasting trait."
     },
     "body": [
       "Steadiness may coexist with bodily activation"
@@ -1414,7 +1416,7 @@
       "four-immeasurables"
     ],
     "basis": "tradition_specific",
-    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies. Buddhist terms have technical meanings that vary by text and tradition; aliases are retrieval aids, not exact translations. Equanimity is not indifference, suppression, or a requirement to remain in harmful circumstances."
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies. Buddhist terms have technical meanings that vary by text and tradition; aliases are retrieval aids, not exact translations. Equanimity is not indifference, suppression, or a requirement to remain in harmful circumstances. Intensity and time-course descriptions are qualitative editorial characterizations, not measured ranges or predicted trajectories."
   },
   {
     "id": "patience",
@@ -1606,8 +1608,8 @@
     "qualities": {
       "valence": "unpleasant",
       "arousal": "variable",
-      "intensity": "Variable; the label does not fix strength.",
-      "time_course": "May fluctuate, recur, or persist with context; no fixed duration is implied."
+      "intensity": "Can range from a painful comparison to absorbing concern about another’s advantage; intensity does not determine whether a person improves their position or resents the other.",
+      "time_course": "May arise during comparison and return with reminders of the advantage; a changed comparison does not require a single predictable emotional outcome."
     },
     "body": [
       "Tension or sinking feeling"
@@ -1639,7 +1641,7 @@
       "envy1993"
     ],
     "basis": "editorial_synthesis",
-    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies."
+    "notes": "An editorial working description. Sources anchor selected concepts, not every illustrative cue. Body sensations, needs, and tendencies are possibilities, not diagnostic signs or measured frequencies. Intensity and time-course descriptions are qualitative editorial characterizations, not measured ranges or predicted trajectories."
   },
   {
     "id": "jealousy",

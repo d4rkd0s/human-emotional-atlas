@@ -34,4 +34,4 @@ Builder confidence and statistical quality-control notes are excluded from the d
 
 ## Generated files
 
-The build emits `dist/data/manifest.json` with version, counts, and file locations, and `dist/data/atlas.json` with manifest, states, relationships, and sources together. Generated files are not the canonical editing surface. Keep canonical changes in `data/` and submit them through a data PR.
+The build emits `dist/data/manifest.json` with version, counts, and file locations, and `dist/data/atlas.json` with manifest, states, relationships, and sources together. Generated files are not the canonical editing surface. Keep canonical changes in `data/` and follow the current contribution workflow in AGENTS.md.

@@ -2,9 +2,9 @@
 
 HEA is maintained by d4rkd0s with AI-assisted research, drafting, and review. Contributions are welcome under CC0-1.0.
 
-Emotional data and source changes require a pull request and maintainer review. Code and documentation may be pushed directly to main by the maintainer or an authorized collaborator. CODEOWNERS routes reviews; repository protection is a separate GitHub setting.
+External contributions use a pull request and maintainer review. For the current maintainer-authorized build, data, source, code, and documentation changes go directly to main after validation, with no new PRs. CODEOWNERS routes reviews; repository protection is a separate GitHub setting.
 
-Keep batches understandable. Prefer 10–20 entries per review when practical; a first coherent foundation may be larger. Explain the coverage, naming decisions, relationships, and gaps in each PR. Do not silently merge data to make the website look populated.
+Keep batches understandable. Prefer 10–20 entries per review when practical; a first coherent foundation may be larger. Explain the coverage, naming decisions, relationships, and gaps in each change summary. Direct-to-main work must retain the same source and integrity checks.
 
 Read AGENTS.md and docs/DATA_MODEL.md before drafting. Consult original sources, preserve cultural context, write original prose, and distinguish direct evidence from editorial synthesis. Source citations are not a license to reproduce third-party text or datasets. Do not submit private messages or identifiable human accounts as examples; write illustrative examples instead.
 

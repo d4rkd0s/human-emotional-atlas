@@ -8,7 +8,9 @@ HEA helps agents, AI, and SI explore possible emotional states behind human lang
 
 ## Current status
 
-The infrastructure, validator, build, and explorer are implemented. Ten integrity/build tests pass locally. The first emotional-data load is available in [PR #2](https://github.com/d4rkd0s/human-emotional-atlas/pull/2) for maintainer review: **49 states, 109 relationships, and 16 sources**; infrastructure on `main` can run with an empty dataset. An empty explorer means no data has been merged yet, not that data failed to load. See [MILESTONES.md](MILESTONES.md) for completion criteria and release status.
+The foundation is merged on `main`: **49 states and 109 relationships**, with scientific and contemplative source records. The validator, static build, and explorer are implemented. See [MILESTONES.md](MILESTONES.md) for verified progress and remaining research.
+
+The maintainer has authorized current development directly on `main`, without new PRs. External contributions still use PRs.
 
 The intended Pages address is **https://d4rkd0s.github.io/human-emotional-atlas/**. Pages is not yet enabled: the build and tests passed, but deployment stopped at Pages configuration. Until then, use the repository files or build locally.
 
@@ -59,7 +61,7 @@ Builder confidence assessments and statistical quality-control notes stay outsid
 ## Repository layout
 
 ```text
-data/                  Canonical JSON, added and changed through data PRs
+data/                  Canonical JSON, updated under the current contribution workflow
 schema/                Machine-readable structural contract
 scripts/               Dependency-free validation and static build
 tests/                 Integrity and build checks
@@ -89,10 +91,10 @@ Open http://localhost:8000. Serve over HTTP because browsers restrict JSON loadi
 
 ## Review and publishing
 
-- Emotional data and source catalogs: PR, human review by **@d4rkd0s**, then merge.
+- Current maintainer-authorized data and source work: validate and commit directly to `main`, with a clear change summary.
 - Infrastructure, documentation, schema, and website code: direct-to-main changes are allowed for authorized work.
 - Automated checks validate references, structure, duplicates, and build integrity. They do not prove psychological truth.
-- GitHub Pages publishes `main`, so unmerged PR data is not part of the public explorer.
+- External contributions use maintainer-reviewed PRs. GitHub Pages publishes `main` when enabled.
 
 For first-time hosting, select **Settings → Pages → Source → GitHub Actions**, then run **Publish atlas explorer** or push an infrastructure change. The workflow requires Pages to be enabled; it contains no administrative token. CODEOWNERS requests data review but does not itself enforce branch protection.
 
